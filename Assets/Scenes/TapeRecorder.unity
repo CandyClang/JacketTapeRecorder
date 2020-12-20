@@ -1516,11 +1516,65 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 46095634723139b40ac958bace9222ea, type: 3}
   callingCrewmatesClips: []
   dominatingClips: []
-  completingAHeistClips: []
-  stealthClips: []
+  completingAHeistClips:
+  - {fileID: 8300000, guid: f74fa06b9f282b84d974b3c917054124, type: 3}
+  - {fileID: 8300000, guid: 238387046c746b743808caf3498f6e46, type: 3}
+  - {fileID: 8300000, guid: 84135b677ef91b24ba745adc17a1cf70, type: 3}
+  - {fileID: 8300000, guid: 0b24890b2078db74ba457d5a64d82da6, type: 3}
+  - {fileID: 8300000, guid: 56d80c8016dd5ee408a0e37ed2882ae9, type: 3}
+  - {fileID: 8300000, guid: 8bcaa0fbbd2736146bbe4fbed586ba7c, type: 3}
+  - {fileID: 8300000, guid: 1f55882d962c78541b2b4b64501a1512, type: 3}
+  - {fileID: 8300000, guid: 0c3861065168dcd48bab39f5b34a2b71, type: 3}
+  - {fileID: 8300000, guid: 19fb163739ab06e4fa0e0f65b25b11a3, type: 3}
+  - {fileID: 8300000, guid: fe4b9a01f93314e43af6817cbb3bbc03, type: 3}
+  - {fileID: 8300000, guid: b8534e67ee5e4954ab2e16db8db317eb, type: 3}
+  - {fileID: 8300000, guid: 2cd973823ba9ba245a1b6e0ebf2bb7a1, type: 3}
+  - {fileID: 8300000, guid: f94894c12b51c7e488b3fae5e8be83cc, type: 3}
+  - {fileID: 8300000, guid: 3658a5057c9c18b479035f0279f32977, type: 3}
+  - {fileID: 8300000, guid: e64538e3d1029cb49b1ad058c485e4ed, type: 3}
+  - {fileID: 8300000, guid: ac0869e4244b7a24b979b9e5f9b7d4d5, type: 3}
+  - {fileID: 8300000, guid: b67e34183031f1a4695efccf8b46b747, type: 3}
+  - {fileID: 8300000, guid: d834c199172ceb74cad78c578c10d1ad, type: 3}
+  - {fileID: 8300000, guid: 4ecf4832ed889844892bc5aa7282d249, type: 3}
+  - {fileID: 8300000, guid: 4a326b843fbc434499c6a2cf1c910fba, type: 3}
+  stealthClips:
+  - {fileID: 8300000, guid: e84b645f94e0b554f8d969a57ccd6bc3, type: 3}
+  - {fileID: 8300000, guid: 7b1f6ead2e967ef4d8032197c63155d9, type: 3}
+  - {fileID: 8300000, guid: 16b9d817153e9bb419e571786dbf203d, type: 3}
+  - {fileID: 8300000, guid: 7770676858ac1914cad2ae805747c08a, type: 3}
+  - {fileID: 8300000, guid: 689c4c4e5ebb9554e9e3be1a33e0f232, type: 3}
+  - {fileID: 8300000, guid: 0b4184ee97acd894899864d4e5913f65, type: 3}
+  - {fileID: 8300000, guid: 2715815ec8d278148bee6bd749437eaf, type: 3}
+  - {fileID: 8300000, guid: 2dd97858e6eb6c644846fbdce3f4e7b7, type: 3}
+  - {fileID: 8300000, guid: e4e8505f748357a48a1b8953d4e37de0, type: 3}
+  - {fileID: 8300000, guid: 4f27ba5c7cb3f4c439b3a874c79468ca, type: 3}
+  - {fileID: 8300000, guid: 699121cc25349114499a7b7d379ada44, type: 3}
+  - {fileID: 8300000, guid: 963c84d7cab2b3348b00709c97387bb4, type: 3}
+  - {fileID: 8300000, guid: fff161b90aef9a04fb35f1999906439c, type: 3}
+  - {fileID: 8300000, guid: a58f6025622055346b862a8bc6915590, type: 3}
+  - {fileID: 8300000, guid: 10d1aac3b2ee8ad44bc83f0a135d2d30, type: 3}
+  - {fileID: 8300000, guid: 89804407953eb574299af8e47a2db0e7, type: 3}
+  - {fileID: 8300000, guid: 2ccaf9d1481ec184994eada8f9705603, type: 3}
+  - {fileID: 8300000, guid: 8e0c47d041f3ba140952ab50996f2479, type: 3}
   assaultWaveInboundClips: []
   specialEnemiesClips: []
-  usingInspireSkillClips: []
+  usingInspireSkillClips:
+  - {fileID: 8300000, guid: b7849b9e9c9a8c340a7a99e598d4aff9, type: 3}
+  - {fileID: 8300000, guid: d42d4fdf80bff2741946d711d3a272e7, type: 3}
+  - {fileID: 8300000, guid: 08639d0c7836a5b4a8e6fc2322ea81d3, type: 3}
+  - {fileID: 8300000, guid: 348a3cb344ee5c342b86185ad433bbe8, type: 3}
+  - {fileID: 8300000, guid: 19a8acfccdca0624baf3b1957d64f214, type: 3}
+  - {fileID: 8300000, guid: b8f5e98f36a25c649a399ebf1ddc6845, type: 3}
+  - {fileID: 8300000, guid: 0fbfb7bcd5dbbc949ba0a6f1a40206a8, type: 3}
+  - {fileID: 8300000, guid: 543b34a3c0ad0314b90deb5e575c6b04, type: 3}
+  - {fileID: 8300000, guid: df447e01daa646548a1f157be7b1742e, type: 3}
+  - {fileID: 8300000, guid: 1237b9b1e771bde42ac368d13b0454aa, type: 3}
+  - {fileID: 8300000, guid: 1baa37c74f919e04d990426244c54d61, type: 3}
+  - {fileID: 8300000, guid: f7411091393ffad4697162f50b1c0ff1, type: 3}
+  - {fileID: 8300000, guid: fa35eaf0e40915f44a8d6a81c770432a, type: 3}
+  - {fileID: 8300000, guid: 4e1fe01d39bb61d4a876ee367ffca6b4, type: 3}
+  - {fileID: 8300000, guid: 5e4a3feec117639429be42c1854d5c47, type: 3}
+  - {fileID: 8300000, guid: 88fde5bf84e135d46b750873322b1c3c, type: 3}
   pagerResponsesClips:
   - {fileID: 8300000, guid: 0a224090a3b87c54090393dc57d19ba2, type: 3}
   - {fileID: 8300000, guid: 03e02e1a0b2c5174ca92d299fb606cdf, type: 3}
@@ -1529,8 +1583,33 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6f4f152f8964fc6448ab2d58bce98f5e, type: 3}
   - {fileID: 8300000, guid: 2d3827708b0f8af4d81538cb450bafa3, type: 3}
   - {fileID: 8300000, guid: c3c2b4ae173b68141859af2c5b454031, type: 3}
-  deplopyablesClips: []
-  throwablesClips: []
+  deplopyablesClips:
+  - {fileID: 8300000, guid: 866b6d10ef1c4b74ba3e0dad831be0a2, type: 3}
+  - {fileID: 8300000, guid: 360d36ebaad02804d81a7fd4b8d281cd, type: 3}
+  - {fileID: 8300000, guid: a14bf4374d1d63049b9c0308259cc24c, type: 3}
+  - {fileID: 8300000, guid: 693070f9ac20e8543b1dec3986149472, type: 3}
+  - {fileID: 8300000, guid: caad902017e4bcb4e8cfa21f9fe339d4, type: 3}
+  - {fileID: 8300000, guid: 66c4c5561cde2eb47bfaa0b24a888722, type: 3}
+  - {fileID: 8300000, guid: d07c8fb55e64c8840a83eab17351e7cc, type: 3}
+  - {fileID: 8300000, guid: 9b07c2544be57da41844aa2f5dde7f94, type: 3}
+  - {fileID: 8300000, guid: f3c0ee4736e74644d84c70d1de141725, type: 3}
+  - {fileID: 8300000, guid: 02da68de01810d846a7fd46631d3eaf4, type: 3}
+  - {fileID: 8300000, guid: 05c9d8a13735aaa4a9edfa9928677cec, type: 3}
+  - {fileID: 8300000, guid: 2c722934cb9acc649818df2acc949629, type: 3}
+  - {fileID: 8300000, guid: 601c676f9821b4649b5a703296c636ab, type: 3}
+  - {fileID: 8300000, guid: 43282b15e91063646af80f086444aad8, type: 3}
+  - {fileID: 8300000, guid: 60293a8399a210644a920f2dbf2d9714, type: 3}
+  throwablesClips:
+  - {fileID: 8300000, guid: 85da58f94b1490148ade100b3c5768a4, type: 3}
+  - {fileID: 8300000, guid: f4b4909b6e3bfb24e81076f6fe168b48, type: 3}
+  - {fileID: 8300000, guid: 16081b62abb675f46be960e4fd9ce3a4, type: 3}
+  - {fileID: 8300000, guid: e0211cdbf8e2ea94297aea242290fe1d, type: 3}
+  - {fileID: 8300000, guid: d1aba0ad55cb75540b667d1e06238c30, type: 3}
+  - {fileID: 8300000, guid: 22d6dad6f05c1b84b8b9464a9b8956a1, type: 3}
+  - {fileID: 8300000, guid: 8e83a4be9cfc2e847b7d73a740a4e62b, type: 3}
+  - {fileID: 8300000, guid: e791405dfe6698044ab49e81aaf943a9, type: 3}
+  - {fileID: 8300000, guid: 4cdead24365d369488c1610baa45954e, type: 3}
+  - {fileID: 8300000, guid: 53dc56a8c55d02440a2370afc8e9f6c0, type: 3}
   tearGasClips:
   - {fileID: 8300000, guid: 145284b257e00054aa8438106cb20904, type: 3}
   - {fileID: 8300000, guid: 13cc1f38ff0251e4b986c0e27fe936d3, type: 3}
@@ -1550,8 +1629,40 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8185b66cbc5648f4da12f3fbefd741a2, type: 3}
   directionsClips: []
   healthAndBleedoutClips: []
-  lowAmmunitionClips: []
-  objectivesClips: []
+  lowAmmunitionClips:
+  - {fileID: 8300000, guid: ecfce55baeb37ef48a13b0debb38066d, type: 3}
+  - {fileID: 8300000, guid: 4636dabc9ad2e2a4aa8c6a356ec5f1e9, type: 3}
+  - {fileID: 8300000, guid: 2126c436844bd5f4fa97ec86d8d243ae, type: 3}
+  - {fileID: 8300000, guid: 2cae2292a32066341bb3946f26f9130d, type: 3}
+  - {fileID: 8300000, guid: 1fe5454502909a04bb47bbd99609d2f4, type: 3}
+  - {fileID: 8300000, guid: 3710e0b596a706e4893f5e512eeda168, type: 3}
+  - {fileID: 8300000, guid: 707bdfeb9d35ee1448370b7cd873b86f, type: 3}
+  - {fileID: 8300000, guid: 082edb7361e35ab47b912384369d750c, type: 3}
+  - {fileID: 8300000, guid: 5f9ffceabbd8f9043b6bb2da0090fc67, type: 3}
+  - {fileID: 8300000, guid: b1d415befd66d17469e505fdd14a8bd1, type: 3}
+  - {fileID: 8300000, guid: 3caf665dae312164ab972e45b4da17ae, type: 3}
+  - {fileID: 8300000, guid: 6771820ec8899394eaf1b68cb3f3246c, type: 3}
+  objectivesClips:
+  - {fileID: 8300000, guid: b6774c9bece08b24abd02447e27150a7, type: 3}
+  - {fileID: 8300000, guid: ad9ef6625a7e4b746ac37726f391b58a, type: 3}
+  - {fileID: 8300000, guid: 50c4d1f404072dd46b1e7770ad791e82, type: 3}
+  - {fileID: 8300000, guid: 19573cce32bf0b4469c68dae5d2e95fb, type: 3}
+  - {fileID: 8300000, guid: 351fd52588d27814dbfa50e818a1a65d, type: 3}
+  - {fileID: 8300000, guid: fe8012cbfd110734382a645a6f0b0324, type: 3}
+  - {fileID: 8300000, guid: efd3c32efed98ef47a8ce8d5f974e5f0, type: 3}
+  - {fileID: 8300000, guid: 08aef99091b16bb4f91ec872b66bbb65, type: 3}
+  - {fileID: 8300000, guid: a9ae52f4f1120354f99627aead952ed2, type: 3}
+  - {fileID: 8300000, guid: 23c50c97febd3e14a9394db14e786c6c, type: 3}
+  - {fileID: 8300000, guid: 75d8b244350fa054ca2468e5d7d9b919, type: 3}
+  - {fileID: 8300000, guid: 178fd93da593e484b91ec2074858e519, type: 3}
+  - {fileID: 8300000, guid: 1973a69383f1e014e9f3d3a9bfbb225e, type: 3}
+  - {fileID: 8300000, guid: a95c9af687c1b1c4791be564cb496e19, type: 3}
+  - {fileID: 8300000, guid: 42e835756fe82354c93736fd8bdf411f, type: 3}
+  - {fileID: 8300000, guid: 0786cfcedd118a642aca62a45210c1e9, type: 3}
+  - {fileID: 8300000, guid: 745e9d7073fa5e54baa68f22bbe11591, type: 3}
+  - {fileID: 8300000, guid: e69246fcd6af4a14c837126ec4054091, type: 3}
+  - {fileID: 8300000, guid: 3f26f48983eb7b14abe23e58ea601ba9, type: 3}
+  - {fileID: 8300000, guid: a57d65d6da0870a4f856e3dd07a2ae9c, type: 3}
   mapSpecificQuotesClips: []
   cpuControlledClips: []
   otherClips: []
@@ -10181,6 +10292,27 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"I bought you a present."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Here you go."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please accept this gift."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Comed esto." (Eat this.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Comed esto, gilipollas." (Eat this, douchebags.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Eat this."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Prendete questa, coglioni." (Take this, douchebags.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Mangiate questa, stronzi." (Eat this, assholes.)'
+      m_Image: {fileID: 0}
+    - m_Text: '''''Espero que se ahoguen con mierda.'''' (I hope you drown in/choke
+        on shit.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cheers."'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -14797,6 +14929,30 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"Ammo reserves are low."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Fill me up, please."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cartridges almost depleted."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''d like another one, please."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need ammo." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need ammo." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need ammo." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Do you mind sharing?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"J''ai besoin de putain de munition." (I need some fucking ammunition.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Servono delle fottute munizioni." (I need some fucking ammunition.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Local stockpiles are exhausted." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Local stockpiles are exhausted." (2)'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -16835,6 +16991,42 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"A camera."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security camera." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security camera." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Monitoring."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Eine Kamera." (A camera)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Kamera." (Camera)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Una Camara." (A camera)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Camara." (Camera)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Stay clear."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Guard."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security guard" (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security guard" (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Security guard" (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Un guardia." (A guard)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Guardia." (Guard)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Ein Wachmann." (A watchman/guard)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Wachmann." (Watchman/Guard)'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -20810,6 +21002,46 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"Drill is securely fixed." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Drill is securely fixed." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"The drill is active - please stay clear of the moving parts."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The drill is active-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please call technical support." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please call technical support." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please call technical support."(3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Call technical support."'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of hardware failure..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of software malfunction..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Software malfunction."'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of drill malfunction..." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of drill malfunction..." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Drill malfunction."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please recover as much as you can safely manage." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please recover as much as you can safely manage." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"The drill has completed its work." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"The drill has completed its work." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"The authorities are carrying off the cargo."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The merchandise is being carried away."'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -21951,6 +22183,38 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"Wake up." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Wake up." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Wake up." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Proceed." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Proceed." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Proceed." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please proceed." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please proceed." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please proceed." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please proceed." (4)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Mas rapido, imbecil." (Faster, moron.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hurry up. Mas rapido, imbecil." (Faster, moron.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hurry up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hurry. Corred." (Run.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Allons-y." (Let''s go.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Courez comme si le magasin de cigarettes allait fermer."'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -23074,6 +23338,47 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"I really enjoyed that." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I really enjoyed that." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I really enjoyed that." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I really enjoyed that. [unknown italian]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I had a great time." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I had a great time." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I had a great time. [unknown spanish]"'
+      m_Image: {fileID: 0}
+    - m_Text: '"I had a great time. Spumante per tutti." (Champagne for everyone.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Job is done. Now, time to relax and enjoy life."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Operation completed successfully!"'
+      m_Image: {fileID: 0}
+    - m_Text: '"What a lovely day, right?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"What a lovely day, right? Deberiamos haber contratado a un portugues."'
+      m_Image: {fileID: 0}
+    - m_Text: '"What a lovely day, right? ...Aus wie ein scheiss Autounfall."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you for traveling with us. We look forward to seeing you again
+        soon."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you for not disturbing passengers in the Quiet Zone."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you for not disturbing passengers-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you for respecting our Quiet Zone."'
+      m_Image: {fileID: 0}
+    - m_Text: '"If you''re travelling through, we say: safe trip!..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Escape vehicle ahead."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Escape vehicle is ahead."'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -24150,6 +24455,36 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Medical supplies have arrived."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Botiquin aqui." (Medic bag/FIrst aid kit here.)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Ammunition has arrived."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Ammo available."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Additional cartridges available."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Ammo, here you go."'
+      m_Image: {fileID: 0}
+    - m_Text: '"First aid kit." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"First aid kit." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"First aid kit available."'
+      m_Image: {fileID: 0}
+    - m_Text: '"First aid kit, here you go."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Medic bag available."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Additional wrappings can be found in the designated area." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Additional wrappings can be found in the designated area." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Additional wrappings can be found in the designated area." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Additional wrappings can be found in the designated area." (4)'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
