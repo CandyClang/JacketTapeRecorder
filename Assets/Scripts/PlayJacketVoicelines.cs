@@ -283,14 +283,14 @@ public class PlayJacketVoicelines : MonoBehaviour
     }
     #endregion
 
-    #region Dominating
+    #region Dominating - DONE
     public void PlayDominating(int val)
     {
         if (val == 1)
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (dominatingClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -314,7 +314,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (dominatingClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -338,7 +338,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (dominatingClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -362,7 +362,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (dominatingClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -386,7 +386,487 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 6)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 7)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 8)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 9)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 10)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 11)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 12)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 13)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 14)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 15)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 16)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 17)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 18)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 19)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 20)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 21)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 22)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 23)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 24)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 25)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (dominatingClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -1333,14 +1813,14 @@ public class PlayJacketVoicelines : MonoBehaviour
     }
     #endregion
 
-    #region Assault Wave Inbound
+    #region Assault Wave Inbound - DONE
     public void PlayAssaultWaveInbound(int val)
     {
         if (val == 1)
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -1364,7 +1844,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -1388,7 +1868,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -1412,7 +1892,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -1436,7 +1916,391 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 6)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 7)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 8)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 9)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 10)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 11)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 12)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 13)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 14)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 15)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 16)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 17)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 18)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 19)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 20)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 21)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (assaultWaveInboundClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -3241,14 +4105,14 @@ public class PlayJacketVoicelines : MonoBehaviour
     }
     #endregion
 
-    #region Health & Bleedout
+    #region Health & Bleedout - DONE
     public void PlayHealthAndBleedout(int val)
     {
         if (val == 1)
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -3272,7 +4136,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -3296,7 +4160,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -3320,7 +4184,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -3344,7 +4208,679 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 6)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 7)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 8)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 9)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 10)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 11)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 12)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 13)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 14)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 15)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 16)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 17)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 18)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 19)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 20)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 21)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 22)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 23)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 24)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 25)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 26)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 27)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 28)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 29)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 30)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 31)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 32)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 33)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (healthAndBleedoutClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -4399,14 +5935,14 @@ public class PlayJacketVoicelines : MonoBehaviour
     }
     #endregion
 
-    #region Other
+    #region Other - DONE
     public void PlayOther(int val)
     {
         if (val == 1)
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (otherClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -4430,7 +5966,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (otherClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -4454,7 +5990,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (otherClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -4478,7 +6014,7 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (otherClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;
@@ -4502,7 +6038,775 @@ public class PlayJacketVoicelines : MonoBehaviour
         {
             #region
             audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
-            audioSequence[1] = (maskingUpClips[val - 1]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 6)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 7)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 8)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 9)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 10)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 11)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 12)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 13)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 14)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 15)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 16)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 17)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 18)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 19)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 20)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 21)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 22)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 23)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 24)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 25)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 26)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 27)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 28)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 29)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 30)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 31)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 32)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 33)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 34)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 35)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 36)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
+            audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+
+            double startTime = AudioSettings.dspTime;
+
+            //First tape scratch
+            audioSources[0].clip = audioSequence[0];
+            audioSources[0].PlayScheduled(startTime);
+
+            //Voiceline
+            double duration1 = (double)audioSequence[0].samples / audioSequence[0].frequency;
+            audioSources[1].clip = audioSequence[1];
+            audioSources[1].PlayScheduled(startTime + duration1);
+
+            //Second tape scratch
+            double duration2 = (double)audioSequence[1].samples / audioSequence[1].frequency;
+            audioSources[2].clip = audioSequence[2];
+            audioSources[2].PlayScheduled(startTime + duration1 + duration2);
+            #endregion
+        }
+        if (val == 37)
+        {
+            #region
+            audioSequence[0] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
+            audioSequence[1] = (otherClips[val - 1]);
             audioSequence[2] = (tapeScratchesClips[Random.Range(0, tapeScratchesClips.Length)]);
 
             double startTime = AudioSettings.dspTime;

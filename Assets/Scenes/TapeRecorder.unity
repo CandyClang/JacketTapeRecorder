@@ -1515,7 +1515,32 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5a97a82123b914a479c2c3d1517b3fac, type: 3}
   - {fileID: 8300000, guid: 46095634723139b40ac958bace9222ea, type: 3}
   callingCrewmatesClips: []
-  dominatingClips: []
+  dominatingClips:
+  - {fileID: 8300000, guid: 880f1146c4664604089e659e953d0f00, type: 3}
+  - {fileID: 8300000, guid: 30e35704febc22142bcf333e199e5028, type: 3}
+  - {fileID: 8300000, guid: fd1f1a035531aae458d936cfa23aa07e, type: 3}
+  - {fileID: 8300000, guid: 6cdabe5bbb9d1a746a2d0e3c1260cbd4, type: 3}
+  - {fileID: 8300000, guid: a45d373c7babd9542b68386eeb72a7a5, type: 3}
+  - {fileID: 8300000, guid: d26c20ff1e077b246b24c4df96098044, type: 3}
+  - {fileID: 8300000, guid: 54fa161bb2a96dc43b55aa488dec6105, type: 3}
+  - {fileID: 8300000, guid: d4f4e663a292d9043a61c4c89bf18f11, type: 3}
+  - {fileID: 8300000, guid: ba36c77dd2365d04a9e11b35a1582ef2, type: 3}
+  - {fileID: 8300000, guid: 54ed1f4737484174ba71db559df230bb, type: 3}
+  - {fileID: 8300000, guid: ae339c21a37693e4791a49207bd4770c, type: 3}
+  - {fileID: 8300000, guid: f6c7e85c70427f24e810f4250e133df1, type: 3}
+  - {fileID: 8300000, guid: ee1e836e7170f904dbe27e27934f09f5, type: 3}
+  - {fileID: 8300000, guid: 76119b551c6f0e94eb78caf9fbe98377, type: 3}
+  - {fileID: 8300000, guid: a5959f93842ed5f40a3cd578f0ffc71d, type: 3}
+  - {fileID: 8300000, guid: a5f7a0ae7f550504f840d952caaa9668, type: 3}
+  - {fileID: 8300000, guid: 4ea9f8274d02a39418b551919bbab396, type: 3}
+  - {fileID: 8300000, guid: fda51ef44514d3d41adc3a6ff87d97d8, type: 3}
+  - {fileID: 8300000, guid: 1f9617c4b791aac478cb31a2341f37fd, type: 3}
+  - {fileID: 8300000, guid: 7682f022536c74a4f9b868a771656e1a, type: 3}
+  - {fileID: 8300000, guid: 718e2f108d1af714d914b8c4fe9241da, type: 3}
+  - {fileID: 8300000, guid: f38105c9fd566f8438642dfb59ce0cb5, type: 3}
+  - {fileID: 8300000, guid: da4c8d7136823c145b56ea86ed1936f3, type: 3}
+  - {fileID: 8300000, guid: 3bb87f8632f0ec840bb1ce29fdfb6653, type: 3}
+  - {fileID: 8300000, guid: 9f807fe7ac537824886474ccf72c74ca, type: 3}
   completingAHeistClips:
   - {fileID: 8300000, guid: f74fa06b9f282b84d974b3c917054124, type: 3}
   - {fileID: 8300000, guid: 238387046c746b743808caf3498f6e46, type: 3}
@@ -1556,7 +1581,28 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 89804407953eb574299af8e47a2db0e7, type: 3}
   - {fileID: 8300000, guid: 2ccaf9d1481ec184994eada8f9705603, type: 3}
   - {fileID: 8300000, guid: 8e0c47d041f3ba140952ab50996f2479, type: 3}
-  assaultWaveInboundClips: []
+  assaultWaveInboundClips:
+  - {fileID: 8300000, guid: a632b0eb3c469ec4885990d00044981d, type: 3}
+  - {fileID: 8300000, guid: 9c384b627dfd4a04bb66c5ff42c5a4e5, type: 3}
+  - {fileID: 8300000, guid: 18dcb6ba94f2d5543a4962181fbf8b92, type: 3}
+  - {fileID: 8300000, guid: cf8fc4a877cbbb34cbabbe85bd302b0a, type: 3}
+  - {fileID: 8300000, guid: 9e044d4ffa363f1479d75e3930f5b93c, type: 3}
+  - {fileID: 8300000, guid: b7bc861e907a5114691382e724fb49b8, type: 3}
+  - {fileID: 8300000, guid: 6b6cfa6ad52f17346bcdaab4baea35ad, type: 3}
+  - {fileID: 8300000, guid: 5f93da59aa5611540a7d8e249adaec62, type: 3}
+  - {fileID: 8300000, guid: 32787858768437e44b2d68a87f81e710, type: 3}
+  - {fileID: 8300000, guid: 2796b5b630844a24fb798765da6cdd22, type: 3}
+  - {fileID: 8300000, guid: 40dc11599a358304e99368437bb9a347, type: 3}
+  - {fileID: 8300000, guid: 60c125279ef51b345846a384fe0abcf7, type: 3}
+  - {fileID: 8300000, guid: 2463293353309dd4a8336627314b84b6, type: 3}
+  - {fileID: 8300000, guid: 5207f080d52759348920724afca02784, type: 3}
+  - {fileID: 8300000, guid: d57936412ffe91d4abc1aec26b2aa20b, type: 3}
+  - {fileID: 8300000, guid: f8352f3f197570c4bb2598f008424b59, type: 3}
+  - {fileID: 8300000, guid: 7e72f632cd2970444bb6281b701177db, type: 3}
+  - {fileID: 8300000, guid: fe176ccc60604554ca8a83e3b5a20e22, type: 3}
+  - {fileID: 8300000, guid: 47d2c2e25f103aa4c949a1ad5bfd45e0, type: 3}
+  - {fileID: 8300000, guid: 0ab788a07e0586742a839d8b4c8f74c3, type: 3}
+  - {fileID: 8300000, guid: 16042e306fefb344a8bd05b7dd4ca672, type: 3}
   specialEnemiesClips: []
   usingInspireSkillClips:
   - {fileID: 8300000, guid: b7849b9e9c9a8c340a7a99e598d4aff9, type: 3}
@@ -1628,7 +1674,40 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4b2d054a5b3a3ae4189f041e436685f3, type: 3}
   - {fileID: 8300000, guid: 8185b66cbc5648f4da12f3fbefd741a2, type: 3}
   directionsClips: []
-  healthAndBleedoutClips: []
+  healthAndBleedoutClips:
+  - {fileID: 8300000, guid: d6b9fde15f1309a44b0b60c1152a1e0f, type: 3}
+  - {fileID: 8300000, guid: 0131143f65b6aca48a6fdf09fc1a6e38, type: 3}
+  - {fileID: 8300000, guid: eb14cf46da8bd5f41b77fb00e5749a4a, type: 3}
+  - {fileID: 8300000, guid: 4b6c519f5aabb0748a3cfa036574d62d, type: 3}
+  - {fileID: 8300000, guid: 9e70524a1956cad418d3329c3edff9e3, type: 3}
+  - {fileID: 8300000, guid: 8943b9b802ea2e6459cfcc615f360339, type: 3}
+  - {fileID: 8300000, guid: b55be9d57f35c3446ac5ba0293bf3cb7, type: 3}
+  - {fileID: 8300000, guid: 305bea0ccbe071844838f0ebcb4d9229, type: 3}
+  - {fileID: 8300000, guid: ec42c932ad6ea114bb284ddf0464df8a, type: 3}
+  - {fileID: 8300000, guid: a06eda69cd27ec6468fbf845b048dae1, type: 3}
+  - {fileID: 8300000, guid: 23bf0b7bdf3957e4db47ed5a7539cd49, type: 3}
+  - {fileID: 8300000, guid: 68dcd90728d04054a91a57509e42769f, type: 3}
+  - {fileID: 8300000, guid: 714e2dd82c94c104fba30ad52398b5da, type: 3}
+  - {fileID: 8300000, guid: 1e53de06f0e8a09438fa3a56738302e1, type: 3}
+  - {fileID: 8300000, guid: 11c0eb39b3a5e4648952619813ced685, type: 3}
+  - {fileID: 8300000, guid: bc8e49a77f9a4c4418824500ee8b0566, type: 3}
+  - {fileID: 8300000, guid: 7e89a098861b0c54799c5953837318ab, type: 3}
+  - {fileID: 8300000, guid: 53b74ba07fb32154ca23be84b7513308, type: 3}
+  - {fileID: 8300000, guid: 5e5a657418a087148b52bec3ba3532a3, type: 3}
+  - {fileID: 8300000, guid: df2cca13c8bac444abd4df394fc8a7f9, type: 3}
+  - {fileID: 8300000, guid: cc59788974f19814f9194fbe13ca5271, type: 3}
+  - {fileID: 8300000, guid: a0194eefe7e46524f8fef80c23e1678f, type: 3}
+  - {fileID: 8300000, guid: 94456024af6374f41b41240c644f9262, type: 3}
+  - {fileID: 8300000, guid: afe2e1ecc7eb8ec47a8422ea4673639f, type: 3}
+  - {fileID: 8300000, guid: a9cf09a6aad9f2b439187ef75b1b551e, type: 3}
+  - {fileID: 8300000, guid: 74238c59744bfb241b0a70237415f97a, type: 3}
+  - {fileID: 8300000, guid: 19183e0f7d4f1ec4a972f6d3cfd6acb7, type: 3}
+  - {fileID: 8300000, guid: c7f51036032b5f94fbc04cc5add206ec, type: 3}
+  - {fileID: 8300000, guid: 9cc84caf485c38e48bd8cea4eee6264f, type: 3}
+  - {fileID: 8300000, guid: faf465377f01bbd44b14ca3113159b36, type: 3}
+  - {fileID: 8300000, guid: 91e368cee2802604aa469e4a6f7164cb, type: 3}
+  - {fileID: 8300000, guid: 08cf04025468ed6428d2cd1c40984ee4, type: 3}
+  - {fileID: 8300000, guid: 53f201b6230a73e459728f1a0623d7f9, type: 3}
   lowAmmunitionClips:
   - {fileID: 8300000, guid: ecfce55baeb37ef48a13b0debb38066d, type: 3}
   - {fileID: 8300000, guid: 4636dabc9ad2e2a4aa8c6a356ec5f1e9, type: 3}
@@ -1665,7 +1744,44 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a57d65d6da0870a4f856e3dd07a2ae9c, type: 3}
   mapSpecificQuotesClips: []
   cpuControlledClips: []
-  otherClips: []
+  otherClips:
+  - {fileID: 8300000, guid: 624600cdaf631f64db0e85083a9ece75, type: 3}
+  - {fileID: 8300000, guid: 29d3bd9c580289a48a03f460c4a38ea3, type: 3}
+  - {fileID: 8300000, guid: 8fd2054fb7d16aa49811b1ad556ec5bb, type: 3}
+  - {fileID: 8300000, guid: 52666f93c87dccf44ab7323b3b7dec89, type: 3}
+  - {fileID: 8300000, guid: 816cf296fffbf0b4bb4412076815498e, type: 3}
+  - {fileID: 8300000, guid: 97dd354549d1376428ae6f7ffdcf05b7, type: 3}
+  - {fileID: 8300000, guid: af6f5fdc4e2f024418dd570f48f8f2a6, type: 3}
+  - {fileID: 8300000, guid: 9b52e8f3cbfe3664aa6ff84576f8538c, type: 3}
+  - {fileID: 8300000, guid: 0e439779e862a784aa28a5d7d57c7d30, type: 3}
+  - {fileID: 8300000, guid: 5bc67e5797cf52146bdc19aa8868800a, type: 3}
+  - {fileID: 8300000, guid: e444805109c67dd45a1608125b1ba016, type: 3}
+  - {fileID: 8300000, guid: 68a57a38533bb5748a11105dfe58ed44, type: 3}
+  - {fileID: 8300000, guid: d32ec6c3196c32e4f819b3ef4eb658f5, type: 3}
+  - {fileID: 8300000, guid: 33c03c98e806bf44cae9da82f72572ae, type: 3}
+  - {fileID: 8300000, guid: 381d1c6b957654c4ebc37f61ae227e0f, type: 3}
+  - {fileID: 8300000, guid: d2426cac17092584485629506b09d3c4, type: 3}
+  - {fileID: 8300000, guid: 7d1be0a7e066f1e4f941db2bd4a6ffe4, type: 3}
+  - {fileID: 8300000, guid: c09b2b99febfac6478f18a8f5b2edf2c, type: 3}
+  - {fileID: 8300000, guid: b53d26d127d332347bc8c47caf2af7a8, type: 3}
+  - {fileID: 8300000, guid: cc3a9cf1e9af31f428ea70a3839dbdfc, type: 3}
+  - {fileID: 8300000, guid: 5ea9ff28c64a7ed4a94857970ba59ba6, type: 3}
+  - {fileID: 8300000, guid: b868326385d46e443bc7c56935c867aa, type: 3}
+  - {fileID: 8300000, guid: d6dffee789780a24390fa12cce7e3a85, type: 3}
+  - {fileID: 8300000, guid: f8549c84a9dce924688c73ca4592079d, type: 3}
+  - {fileID: 8300000, guid: a553f96b329efff449e36ab8daffbee2, type: 3}
+  - {fileID: 8300000, guid: 504e4d750097aa84abc69a22d33bf1ce, type: 3}
+  - {fileID: 8300000, guid: 3e9522da5428b1047a6a779fa5bae5d1, type: 3}
+  - {fileID: 8300000, guid: f4d962ddc6e075e478acdff86cc4b941, type: 3}
+  - {fileID: 8300000, guid: abafc36599b9cfd4e8bc202064e105a5, type: 3}
+  - {fileID: 8300000, guid: 5499b5ff8f8c7f54c93dec99a03a3747, type: 3}
+  - {fileID: 8300000, guid: 6196891eb4fa50149962d7f93f6553ce, type: 3}
+  - {fileID: 8300000, guid: 599d68b8c45affe4fa82bc4598a99a20, type: 3}
+  - {fileID: 8300000, guid: baf352d3cd2036843ba1000dd1d2f40d, type: 3}
+  - {fileID: 8300000, guid: 28de02cfd5ca9ea4fa01a9a74d8b12cb, type: 3}
+  - {fileID: 8300000, guid: 76a8ee814095dbb40ab4dd4f7058fc7c, type: 3}
+  - {fileID: 8300000, guid: 3e93b17eb49b5034aa58823173812a38, type: 3}
+  - {fileID: 8300000, guid: e2610171a9196f14bafd79b4ac062cf4, type: 3}
   audioSources:
   - {fileID: 150225690}
   - {fileID: 150225691}
@@ -3591,6 +3707,48 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Oh, how nice to get some company." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Oh, how nice to get some company." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s getting hot."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s getting hot. Che il massacro abbia inizio."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s getting hot. Llenad el lugar con cadaveres."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s getting hot. [unknown french]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s getting hot. [unknown german]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The guests are coming any minute."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The guests are coming any minute. E tempo di distruzione."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The guests are coming any minute. Oktoberfest."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The guests are coming any minute. [unknown french]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We''re expecting visitors."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We''re expecting visitors. Che lo spettacolo abbia inizio."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We''re expecting visitors. Ya vienen los putos cerdos."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We''re expecting visitors. -le putain de poulet arrive."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We''re expecting visitors. [unknown german]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Now, enjoy the show."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The anticipation is half the fun."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Eliminate all targets and have fun doing it."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Eliminate all targets-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Population reduction measures activated. [unknown spanish]"'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10298,18 +10456,17 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Please accept this gift."'
       m_Image: {fileID: 0}
-    - m_Text: '"Comed esto." (Eat this.)'
+    - m_Text: '"Comed esto."'
       m_Image: {fileID: 0}
-    - m_Text: '"Comed esto, gilipollas." (Eat this, douchebags.)'
+    - m_Text: '"Comed esto, gilipollas."'
       m_Image: {fileID: 0}
     - m_Text: '"Eat this."'
       m_Image: {fileID: 0}
-    - m_Text: '"Prendete questa, coglioni." (Take this, douchebags.)'
+    - m_Text: '"Prendete questa, coglioni."'
       m_Image: {fileID: 0}
-    - m_Text: '"Mangiate questa, stronzi." (Eat this, assholes.)'
+    - m_Text: '"Mangiate questa, stronzi."'
       m_Image: {fileID: 0}
-    - m_Text: '''''Espero que se ahoguen con mierda.'''' (I hope you drown in/choke
-        on shit.)'
+    - m_Text: '''''Espero que se ahoguen con mierda.'''''
       m_Image: {fileID: 0}
     - m_Text: '"Cheers."'
       m_Image: {fileID: 0}
@@ -13316,6 +13473,80 @@ MonoBehaviour:
     m_Options:
     - m_Text: '- - -'
       m_Image: {fileID: 0}
+    - m_Text: '"Please don''t do that again."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Fuyez avant que le putain de poulet arrive."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Faites attention."'
+      m_Image: {fileID: 0}
+    - m_Text: '"A la tienne."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bewegt eure Arsche."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cooperation benefits everyone."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Do you know what time it is?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''d like to invite you to my party."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Oktoberfest."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 2."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 8."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 16."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 21."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 28."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 35."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 47."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Page 54."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please contact a licensed service dealer."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The service here is excellent. [unknown french]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Turn it up." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Turn it up." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are in a hurry." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are in a hurry." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are in a hurry. Corred."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are in a hurry. [unknown german]."'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown french voiceline 1]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown french voiceline 2]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown french voiceline 3]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown german voiceline 1]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown german voiceline 2]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown italian voiceline 1]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown italian voiceline 2]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown italian voiceline 3]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown spanish voiceline 1]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown spanish voiceline 2]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown spanish voiceline 3]'
+      m_Image: {fileID: 0}
+    - m_Text: '[unknown spanish voiceline 4]'
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -14034,6 +14265,56 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Arms outstretched." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Arms outstretched." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Arms outstretched." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Kneeling position." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Kneeling position." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Kneeling position." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Supply handcuffs"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please place the cuffs firmly on your wrists."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please apply handcuffs, thank you."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Stay down."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Stay down. Fresse auf den Boden."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Al suelo." (On the ground)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Down." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Down." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Down." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Down. Runter" (Down)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Stay."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Stay calm and don''t panic."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please, do not be brave."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please, do not be a hero. O esto."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Don''t panic"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Gently apply cable ties to all civilians."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Supply cable ties to all civilians."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please supply cable ties to all subjects. Thank you."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Supply cables ties to all subjects."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14945,9 +15226,9 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Do you mind sharing?"'
       m_Image: {fileID: 0}
-    - m_Text: '"J''ai besoin de putain de munition." (I need some fucking ammunition.)'
+    - m_Text: '"J''ai besoin de putain de munition."'
       m_Image: {fileID: 0}
-    - m_Text: '"Servono delle fottute munizioni." (I need some fucking ammunition.)'
+    - m_Text: '"Servono delle fottute munizioni."'
       m_Image: {fileID: 0}
     - m_Text: '"Local stockpiles are exhausted." (1)'
       m_Image: {fileID: 0}
@@ -17002,13 +17283,13 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Monitoring."'
       m_Image: {fileID: 0}
-    - m_Text: '"Eine Kamera." (A camera)'
+    - m_Text: '"Eine Kamera."'
       m_Image: {fileID: 0}
-    - m_Text: '"Kamera." (Camera)'
+    - m_Text: '"Kamera."'
       m_Image: {fileID: 0}
-    - m_Text: '"Una Camara." (A camera)'
+    - m_Text: '"Una Camara."'
       m_Image: {fileID: 0}
-    - m_Text: '"Camara." (Camera)'
+    - m_Text: '"Camara."'
       m_Image: {fileID: 0}
     - m_Text: '"Stay clear."'
       m_Image: {fileID: 0}
@@ -17020,13 +17301,13 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Security guard" (3)'
       m_Image: {fileID: 0}
-    - m_Text: '"Un guardia." (A guard)'
+    - m_Text: '"Un guardia."'
       m_Image: {fileID: 0}
     - m_Text: '"Guardia." (Guard)'
       m_Image: {fileID: 0}
-    - m_Text: '"Ein Wachmann." (A watchman/guard)'
+    - m_Text: '"Ein Wachmann."'
       m_Image: {fileID: 0}
-    - m_Text: '"Wachmann." (Watchman/Guard)'
+    - m_Text: '"Wachmann."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17168,6 +17449,78 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need an appointment with the doctor." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need an appointment with the doctor." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I need an appointment with the doctor. Ich brauch nen verschissenen
+        Arzt."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I don''t feel too well." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I don''t feel too well." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Vital signs deteriorating."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Are you a doctor?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''m feeling a bit sick." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''m feeling a bit sick." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I think I''m catching cold." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I think I''m catching cold." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of personnel damage, please locate the nearest first
+        aid kit." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of personnel damage, please locate the nearest first
+        aid kit." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"In the event of personnel damage, please locate the nearest first
+        aid kit." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Where is the nearest hospital?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please find medical personnel as soon as possible." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please find medical personnel as soon as possible." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Health status degenerating." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Health status degenerating." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I made a mistake." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I made a mistake." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"If you have sustained injuries, you may need to seek medical attention
+        promptly." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"If you have sustained injuries, you may need to seek medical attention
+        promptly." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Assistance would be appreciated."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Assistance is needed."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Goodbye." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Goodbye." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Help." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Help." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Help. Ayuda."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please assist." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please assist." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Ayuda."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -22203,15 +22556,15 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Please proceed." (4)'
       m_Image: {fileID: 0}
-    - m_Text: '"Mas rapido, imbecil." (Faster, moron.)'
+    - m_Text: '"Mas rapido, imbecil."'
       m_Image: {fileID: 0}
-    - m_Text: '"Hurry up. Mas rapido, imbecil." (Faster, moron.)'
+    - m_Text: '"Hurry up. Mas rapido, imbecil."'
       m_Image: {fileID: 0}
     - m_Text: '"Hurry up."'
       m_Image: {fileID: 0}
-    - m_Text: '"Hurry. Corred." (Run.)'
+    - m_Text: '"Hurry. Corred."'
       m_Image: {fileID: 0}
-    - m_Text: '"Allons-y." (Let''s go.)'
+    - m_Text: '"Allons-y."'
       m_Image: {fileID: 0}
     - m_Text: '"Courez comme si le magasin de cigarettes allait fermer."'
       m_Image: {fileID: 0}
@@ -23352,7 +23705,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"I had a great time. [unknown spanish]"'
       m_Image: {fileID: 0}
-    - m_Text: '"I had a great time. Spumante per tutti." (Champagne for everyone.)'
+    - m_Text: '"I had a great time. Spumante per tutti."'
       m_Image: {fileID: 0}
     - m_Text: '"Job is done. Now, time to relax and enjoy life."'
       m_Image: {fileID: 0}
@@ -24458,7 +24811,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Medical supplies have arrived."'
       m_Image: {fileID: 0}
-    - m_Text: '"Botiquin aqui." (Medic bag/FIrst aid kit here.)'
+    - m_Text: '"Botiquin aqui."'
       m_Image: {fileID: 0}
     - m_Text: '"Ammunition has arrived."'
       m_Image: {fileID: 0}
