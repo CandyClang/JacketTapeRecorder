@@ -1697,7 +1697,89 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 47d2c2e25f103aa4c949a1ad5bfd45e0, type: 3}
   - {fileID: 8300000, guid: 0ab788a07e0586742a839d8b4c8f74c3, type: 3}
   - {fileID: 8300000, guid: 16042e306fefb344a8bd05b7dd4ca672, type: 3}
-  specialEnemiesClips: []
+  specialEnemiesClips:
+  - {fileID: 8300000, guid: 51db0f04c14b6524fbabac628c02b5fe, type: 3}
+  - {fileID: 8300000, guid: 8db6f6125bb37bc489f9d4401b8460cf, type: 3}
+  - {fileID: 8300000, guid: 8db6f6125bb37bc489f9d4401b8460cf, type: 3}
+  - {fileID: 8300000, guid: f44b72e68e01a2f409d4e5b5b2bb4d93, type: 3}
+  - {fileID: 8300000, guid: 77ac63198586ddb45ba1d60d4628498b, type: 3}
+  - {fileID: 8300000, guid: 151d58d4c7f940a409f76b527c766094, type: 3}
+  - {fileID: 8300000, guid: c9fd6a440b30176498b9fe05528995e9, type: 3}
+  - {fileID: 8300000, guid: 7dbc650a80d96904193effaf23ff2576, type: 3}
+  - {fileID: 8300000, guid: bef0cc9cd85127945ae8f614d886a81b, type: 3}
+  - {fileID: 8300000, guid: 4a276c53ebc487c4cb0b6172f723fb0a, type: 3}
+  - {fileID: 8300000, guid: 1f37123c14fa1d94c8cb4a2b679e787c, type: 3}
+  - {fileID: 8300000, guid: f775653841756014ebcac51532f21d8c, type: 3}
+  - {fileID: 8300000, guid: aa1982e88633203458ee53db4589ab50, type: 3}
+  - {fileID: 8300000, guid: 357422893a2f18144a5a7c0a2ec26545, type: 3}
+  - {fileID: 8300000, guid: fb8330f2d98ff1543aeec892d7813385, type: 3}
+  - {fileID: 8300000, guid: 1bf060056182d62448d409a4b979d93a, type: 3}
+  - {fileID: 8300000, guid: 5bb9b5a60838b6544b0da056c9bd31e4, type: 3}
+  - {fileID: 8300000, guid: 5ce8f8a51408b814c9eeec4aa78783ae, type: 3}
+  - {fileID: 8300000, guid: ff2bd93fd5eaf594ea007122e9dd7d8a, type: 3}
+  - {fileID: 8300000, guid: 27b8a1e760d88ef4bb04cba9f366c5b6, type: 3}
+  - {fileID: 8300000, guid: eb56d73c8a90ae643884ff1fb485f28b, type: 3}
+  - {fileID: 8300000, guid: 2cca24e53a67ad442a66fddbc9095b8c, type: 3}
+  - {fileID: 8300000, guid: 9add85991d11d0d44a3a7c294acb0b71, type: 3}
+  - {fileID: 8300000, guid: 560ec07a7298fcb419db716bafea0925, type: 3}
+  - {fileID: 8300000, guid: be7435df0c581f64ab3a72d95e1186e5, type: 3}
+  - {fileID: 8300000, guid: 9ba98e0bfd0c10a4a8fb299a755bef30, type: 3}
+  - {fileID: 8300000, guid: c8308ae8a12c02247a9de706860d0aa2, type: 3}
+  - {fileID: 8300000, guid: 74553b243ab565a4090dac3ce22968e8, type: 3}
+  - {fileID: 8300000, guid: 4131f5c40df731d46a030dfe808d0e5c, type: 3}
+  - {fileID: 8300000, guid: 41ef2a96766ed6247a929f655362cbba, type: 3}
+  - {fileID: 8300000, guid: 317dcc85b180c5f4789e643d46eabfe9, type: 3}
+  - {fileID: 8300000, guid: 5742f2b187e73e640b9f2506c266392f, type: 3}
+  - {fileID: 8300000, guid: 08d6cecb05ab8c648a1d6cff433bfce2, type: 3}
+  - {fileID: 8300000, guid: 2efaaca9f4e26b349ac0403b96261081, type: 3}
+  - {fileID: 8300000, guid: 97d4a54798b00214b82dad713f8bc469, type: 3}
+  - {fileID: 8300000, guid: 5a7e0c4eb5851574396a0744cf8b21aa, type: 3}
+  - {fileID: 8300000, guid: 86e0903aed0458e418b4615716727059, type: 3}
+  - {fileID: 8300000, guid: 7e3341abdb9d88f4180fc203e90ffb5a, type: 3}
+  - {fileID: 8300000, guid: c922bcb3f190f3f43844a0a01e73508a, type: 3}
+  - {fileID: 8300000, guid: 87ea47de4818e814982865d97ccadb8c, type: 3}
+  - {fileID: 8300000, guid: c63699c41cb8d68458fc5dac13b8aa4a, type: 3}
+  - {fileID: 8300000, guid: afa1e10947288204fb59d7573638bf11, type: 3}
+  - {fileID: 8300000, guid: da87566659560d544bc54c7cb921d5f0, type: 3}
+  - {fileID: 8300000, guid: eea15c2d0b8cbf3498032b3c3ad652bb, type: 3}
+  - {fileID: 8300000, guid: abe64e58c47711e45bd162981235dda6, type: 3}
+  - {fileID: 8300000, guid: a3b96e3755253aa4caf02dc00ba9bcd3, type: 3}
+  - {fileID: 8300000, guid: 38000009a3f74e64eae657d55f981437, type: 3}
+  - {fileID: 8300000, guid: 07a4e3584bfd18748afa5d41ec3f44e0, type: 3}
+  - {fileID: 8300000, guid: c9d7fd40fd2156444907b5792f59894d, type: 3}
+  - {fileID: 8300000, guid: a6b3d0df9c0a33b40839933a60bb9887, type: 3}
+  - {fileID: 8300000, guid: af8892e01f2173040b0db3284ff78c4a, type: 3}
+  - {fileID: 8300000, guid: 1c9e63a504c3d2c4daf2cc618f741439, type: 3}
+  - {fileID: 8300000, guid: 233f26169044b3c4bbf21ca507012e8f, type: 3}
+  - {fileID: 8300000, guid: f7477d1d73d67be4d86827ebdbd18e7a, type: 3}
+  - {fileID: 8300000, guid: 3b619c2728b287c4abb71b3fb72fb193, type: 3}
+  - {fileID: 8300000, guid: 87c15689711173246a3be5d98a15ea2d, type: 3}
+  - {fileID: 8300000, guid: f1e734abb28f8a9458f7da810b0fa46d, type: 3}
+  - {fileID: 8300000, guid: c6fddf9175be69843be9a365a957ec6a, type: 3}
+  - {fileID: 8300000, guid: 3e0fa33cf18ad244fa5e7c060ffcde49, type: 3}
+  - {fileID: 8300000, guid: 0bf32725cd312a64691b7261928cda66, type: 3}
+  - {fileID: 8300000, guid: 322da6daacd895347902109026d70e1d, type: 3}
+  - {fileID: 8300000, guid: 113c9204c20887e44a65c626b55d17ed, type: 3}
+  - {fileID: 8300000, guid: d92723aa1b1398243ba8fc358d203e3e, type: 3}
+  - {fileID: 8300000, guid: fe280ecc1e1613945a2133997214be83, type: 3}
+  - {fileID: 8300000, guid: 91906f3e6a3f1b440b1bc22952fc3169, type: 3}
+  - {fileID: 8300000, guid: 572397bc6dd9ce34f9244f94b6fafdc8, type: 3}
+  - {fileID: 8300000, guid: f15d1e00a82e48548a08452cec573c51, type: 3}
+  - {fileID: 8300000, guid: f439d483ecf8b4247ba216522260658e, type: 3}
+  - {fileID: 8300000, guid: 70e3a978e2ac2ca4197c7683650c9872, type: 3}
+  - {fileID: 8300000, guid: c1ce38ee315390840996d93d99b89218, type: 3}
+  - {fileID: 8300000, guid: 38067e0f5893b9a419599c216ec25c78, type: 3}
+  - {fileID: 8300000, guid: 70977111b3c17914582134b370ac5ae0, type: 3}
+  - {fileID: 8300000, guid: 2b03e2b2f1e86534ba18de6d60d15473, type: 3}
+  - {fileID: 8300000, guid: d1ff56eb7e16ccd41ae87fca63b6646a, type: 3}
+  - {fileID: 8300000, guid: b916a15e172a20e43ab81188b9f98418, type: 3}
+  - {fileID: 8300000, guid: b6423746967ef9a4285859360118c04f, type: 3}
+  - {fileID: 8300000, guid: 08a35ce9c8a704b4084282bac1ef3121, type: 3}
+  - {fileID: 8300000, guid: 11965a008b8115442a8ac679af4e5f82, type: 3}
+  - {fileID: 8300000, guid: 12e11e7674bcf0440b2c27c31679e2ad, type: 3}
+  - {fileID: 8300000, guid: 926fe886f54f78e4798480c6d0442bcf, type: 3}
+  - {fileID: 8300000, guid: c71367f6d88475645951c5f38a012bf3, type: 3}
+  - {fileID: 8300000, guid: 7ffced0a33eb1954794e66e0e983957d, type: 3}
   usingInspireSkillClips:
   - {fileID: 8300000, guid: b7849b9e9c9a8c340a7a99e598d4aff9, type: 3}
   - {fileID: 8300000, guid: d42d4fdf80bff2741946d711d3a272e7, type: 3}
@@ -1767,7 +1849,68 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cbc121ad27f696a419db36cb0e687299, type: 3}
   - {fileID: 8300000, guid: 4b2d054a5b3a3ae4189f041e436685f3, type: 3}
   - {fileID: 8300000, guid: 8185b66cbc5648f4da12f3fbefd741a2, type: 3}
-  directionsClips: []
+  directionsClips:
+  - {fileID: 8300000, guid: c02e4bef46aff0942b96a83fe581979b, type: 3}
+  - {fileID: 8300000, guid: 9b7e4f6783d9b7a43bd851ce5e67e6a4, type: 3}
+  - {fileID: 8300000, guid: 42cdc9e019e73064080914a3b8461d3b, type: 3}
+  - {fileID: 8300000, guid: cfa22efae6d5a154cbab0d482a195bc8, type: 3}
+  - {fileID: 8300000, guid: 86f7c80470f554a4fa462b9ab3e8a57d, type: 3}
+  - {fileID: 8300000, guid: 95481d16b539af647bc084cc2c0baed9, type: 3}
+  - {fileID: 8300000, guid: ab7b4074d0679594fbc1461f0e1e2f5a, type: 3}
+  - {fileID: 8300000, guid: 89f241e6c24a4a543b6bd06b8d4c8e69, type: 3}
+  - {fileID: 8300000, guid: 27284651535901e4e93ba47f79481dcd, type: 3}
+  - {fileID: 8300000, guid: 32e390c357ccf7f418b5c1762531e5ae, type: 3}
+  - {fileID: 8300000, guid: d5e63b1504763ae4dba3e93305672e6d, type: 3}
+  - {fileID: 8300000, guid: 863731511edc6914f86f2e5fecefa5a7, type: 3}
+  - {fileID: 8300000, guid: 18efa34f243bb7c4e90924c6283f43fe, type: 3}
+  - {fileID: 8300000, guid: d1038f34e1c002c4a95da95f70ddcfd1, type: 3}
+  - {fileID: 8300000, guid: 2f327debc7e09194585b99d65184bd5b, type: 3}
+  - {fileID: 8300000, guid: 7a549f62615b23b48991bfcf25c2b0a9, type: 3}
+  - {fileID: 8300000, guid: 3488b32e53fe51b45b316bc86db31e74, type: 3}
+  - {fileID: 8300000, guid: 0985cc6f86b680649b7bfe3fbbf845cc, type: 3}
+  - {fileID: 8300000, guid: 7cf67f4e6c096664a81f2bac362c3c2c, type: 3}
+  - {fileID: 8300000, guid: 50458186f4412a24a8daccb9e60a725d, type: 3}
+  - {fileID: 8300000, guid: 38602bcb61080ff42ba948c8bf5cfd5c, type: 3}
+  - {fileID: 8300000, guid: 7723bd7d98f359c4d9986d767b37af74, type: 3}
+  - {fileID: 8300000, guid: d7c813e7c852712478115dc02b006636, type: 3}
+  - {fileID: 8300000, guid: 74eec8cc0ef5ebe42ac9f70141ee5e3b, type: 3}
+  - {fileID: 8300000, guid: def3fd639b45aad4da35daf8be5d9426, type: 3}
+  - {fileID: 8300000, guid: e1d0401a82f7c2d4693f5fb9e7c1251b, type: 3}
+  - {fileID: 8300000, guid: fe3500dc46504f64d98cff5d42b0ac6e, type: 3}
+  - {fileID: 8300000, guid: dd1af83407ce1e94db012997fe3a4b6e, type: 3}
+  - {fileID: 8300000, guid: 4ce3ad3bae5d0e44e91179beae03ac56, type: 3}
+  - {fileID: 8300000, guid: 3e8c324957f99a448ba0f035edcc852c, type: 3}
+  - {fileID: 8300000, guid: 295136b0bd6f3cd49a1b1199616b28a6, type: 3}
+  - {fileID: 8300000, guid: 34ec06f5c97b34b48a664be2ffbd7149, type: 3}
+  - {fileID: 8300000, guid: 2ca2f2a38b4977a47b97b603b7a1fcab, type: 3}
+  - {fileID: 8300000, guid: 86dabe7641527f348863b042d106d009, type: 3}
+  - {fileID: 8300000, guid: 977a47faf56e48d458ba86b0ddaaac9a, type: 3}
+  - {fileID: 8300000, guid: 88ab78c248af381409c00d4b683c5c0f, type: 3}
+  - {fileID: 8300000, guid: 435084897dca7f64ca12aeee362780a4, type: 3}
+  - {fileID: 8300000, guid: 0f60332536730a54ca1c9f268abd6670, type: 3}
+  - {fileID: 8300000, guid: df06b8b4903c8a041a44b5a38b7cf2cd, type: 3}
+  - {fileID: 8300000, guid: adf86809d46eda44885c37a9e29d4b43, type: 3}
+  - {fileID: 8300000, guid: 5e98e6489df7bf847ab9d8f375bfd0a4, type: 3}
+  - {fileID: 8300000, guid: f717e0ffdbb38d84395427c6460a711b, type: 3}
+  - {fileID: 8300000, guid: c8e66e2f4f527ef409a38e19f4df94f4, type: 3}
+  - {fileID: 8300000, guid: 7b6a70fe1e8ca6b489bde74efbb2ecc5, type: 3}
+  - {fileID: 8300000, guid: 29db37c58860cb04d98b83839568b047, type: 3}
+  - {fileID: 8300000, guid: 3e02e2c6c4e028041942614de2947957, type: 3}
+  - {fileID: 8300000, guid: f0b0019dc13839b4aadbaffe803bb9f5, type: 3}
+  - {fileID: 8300000, guid: 89dfad695bfcbcb41bdd38e1f0316051, type: 3}
+  - {fileID: 8300000, guid: 461a97ac026e03543bfae98ec9c06fbe, type: 3}
+  - {fileID: 8300000, guid: fa55b4696a3c6dd429c8d4c49189e90c, type: 3}
+  - {fileID: 8300000, guid: 2d6351321a6ddef42b3220590e184bf1, type: 3}
+  - {fileID: 8300000, guid: 4164e20bba8264d458405c49be16d111, type: 3}
+  - {fileID: 8300000, guid: db4e971b8afc066418b2f517728fe210, type: 3}
+  - {fileID: 8300000, guid: 0eccfe25427ee5940a06adb86a06e947, type: 3}
+  - {fileID: 8300000, guid: 5781251730d806b4bad9bca989ddc2a3, type: 3}
+  - {fileID: 8300000, guid: 1db8838f5e84ca144bf41279d5775578, type: 3}
+  - {fileID: 8300000, guid: 6bce00a37cce8be4dba21234a2e2884c, type: 3}
+  - {fileID: 8300000, guid: 59b6c6ab8224fec43afc3125e668965c, type: 3}
+  - {fileID: 8300000, guid: 47a8a9078b4f158409520497f2595ab0, type: 3}
+  - {fileID: 8300000, guid: 8b591bb644338d242bc3cb0aa9e65a6d, type: 3}
+  - {fileID: 8300000, guid: a2a21c5dd4b24bf4cbd1732479dae2e7, type: 3}
   healthAndBleedoutClips:
   - {fileID: 8300000, guid: d6b9fde15f1309a44b0b60c1152a1e0f, type: 3}
   - {fileID: 8300000, guid: 0131143f65b6aca48a6fdf09fc1a6e38, type: 3}
@@ -8459,6 +8602,170 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer disabled." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer disabled." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer no longer in working order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer no longer in working order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer out of service."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer is non-operational." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bulldozer is non-operational." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield." (4)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield out of service." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield out of service." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield disabled." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield disabled." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield no longer in working order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield no longer in working order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shield non-operational."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Je deteste les cigarettes mouillees"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser out of service." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser out of service." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser out of service." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser no longer in working order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser no longer in working order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser no longer in working order." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser disabled." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser disabled." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser non-operational." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser non-operational." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Taser non-operational." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker non-operational." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker non-operational." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker no longer in working order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker no longer in working order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker out of service." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker out of service." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker disabled." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cloaker disabled." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Message received."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman out of service."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman no longer in working order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman no longer in working order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman non-operational." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman non-operational." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman disabled." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Marksman disabled." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"El medico."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Medic."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Doctor is in the house."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Health warning: Medic."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Doctor no longer in the house."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Medic is dead."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Medic has been disabled."'
+      m_Image: {fileID: 0}
+    - m_Text: '"El medico no longer."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Emergency announcement. A turret has been spotted."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Attention! There is a turret."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Eso no es jugar limpio."'
+      m_Image: {fileID: 0}
+    - m_Text: '"There is a turret."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Turret. Attention."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Oh, how nice to get some company."'
+      m_Image: {fileID: 0}
+    - m_Text: '"You can thank me later." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You can thank me later." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You can thank me later." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank me later."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank me later. -vediamo all''inferno."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I believe hoorays are in order." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I believe hoorays are in order." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I believe hoorays are in order. Riprova, sarai plu fortunato."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I believe hoorays are in order. Una palabra ma-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"I really enjoyed that."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Una testa di cazzo in meno."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -21421,6 +21728,128 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please make your way inside." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please make your way inside." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Make your way inside." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Make your way inside." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have arrived at your destination." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have arrived at your destination." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have arrived at your destination." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have arrived-" (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have arrived-" (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We will arrive shortly."'
+      m_Image: {fileID: 0}
+    - m_Text: '"-will arrive shortly."'
+      m_Image: {fileID: 0}
+    - m_Text: '"-arrive shortly."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please head to the exit." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please head to the exit." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"-head to the exit."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We should go. [unintelligible]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We should go." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We should go." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"We should go." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Your destination is directly ahead."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Your destination -directly ahead."'
+      m_Image: {fileID: 0}
+    - m_Text: '"-destination is directly ahead." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"-destination is directly ahead." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Your destination -ahead."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please keep to the right."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Keep to the right."'
+      m_Image: {fileID: 0}
+    - m_Text: '"To the right."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please keep to the left."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Keep to the left."'
+      m_Image: {fileID: 0}
+    - m_Text: '"To the left."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please follow."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Follow."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please follow the stairway up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Follow the stairway up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"-stairway up." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"-stairway up." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please head up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Head up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please follow the stairway down." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please follow the stairway down." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Follow the stairway down."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please head down."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Head down."'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the wrong way." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the wrong way." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the wrong way. Das ist der falsche Weg."'
+      m_Image: {fileID: 0}
+    - m_Text: '"C''est la mauvaise direction."'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the right way." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the right way." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the right way. Das ist der richtige Weg."'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is the right way. Aqui-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"C''est la bonne direction."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Si, es por aqui."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let''s go." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let''s go." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let''s go." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let''s go. Vamo-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please jump." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please jump." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Jump." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Jump." (2)'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
