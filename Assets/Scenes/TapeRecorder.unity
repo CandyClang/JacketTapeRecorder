@@ -1979,8 +1979,167 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e69246fcd6af4a14c837126ec4054091, type: 3}
   - {fileID: 8300000, guid: 3f26f48983eb7b14abe23e58ea601ba9, type: 3}
   - {fileID: 8300000, guid: a57d65d6da0870a4f856e3dd07a2ae9c, type: 3}
-  mapSpecificQuotesClips: []
-  cpuControlledClips: []
+  mapSpecificQuotesClips:
+  - {fileID: 8300000, guid: f2776e5fee43dd44585121e7d8b86aff, type: 3}
+  - {fileID: 8300000, guid: 336ced61ca1d2294fb97236896718316, type: 3}
+  - {fileID: 8300000, guid: d6f7fc7a779bcb84b950d6efd3b72932, type: 3}
+  - {fileID: 8300000, guid: c0f4caf51065d22459f621163e3df61a, type: 3}
+  - {fileID: 8300000, guid: 1ebb8528313248741ad516297916c834, type: 3}
+  - {fileID: 8300000, guid: de3e4769cf506e04a9def74ed49892dd, type: 3}
+  - {fileID: 8300000, guid: e3dc8c098d19f51459bec490872bcda1, type: 3}
+  - {fileID: 8300000, guid: b3e4e04473750e7478b9f45ec425a3d0, type: 3}
+  - {fileID: 8300000, guid: f24ca0bfd9789b844a827d3c8418df4d, type: 3}
+  - {fileID: 8300000, guid: f824a5c19cca3a74aa7a7e8e876c6e2a, type: 3}
+  - {fileID: 8300000, guid: 89f24bd5bda346340abf9c59b96a1c6c, type: 3}
+  - {fileID: 8300000, guid: a7ec46b2168837741923079dc6dafa61, type: 3}
+  - {fileID: 8300000, guid: b9a71ce17e5d8ae45a4c7c46bdf77cc0, type: 3}
+  - {fileID: 8300000, guid: b1b1527bf8c427140a0f025e1991dfa9, type: 3}
+  - {fileID: 8300000, guid: e47358bc2fb6123418c0f48af9459e7e, type: 3}
+  - {fileID: 8300000, guid: 88e3c277600607240bbd5d56ed2f7be9, type: 3}
+  - {fileID: 8300000, guid: 5c0d0ab708a952146be6eb3eaaa07cc7, type: 3}
+  - {fileID: 8300000, guid: 894c8df7220e8ac40be4ad0519100b93, type: 3}
+  - {fileID: 8300000, guid: cdd0d49f9ba6e194686904ff2c40225f, type: 3}
+  - {fileID: 8300000, guid: b6a96fb50d930b74bae523d6a7a68933, type: 3}
+  - {fileID: 8300000, guid: d6a424a4f29ce624d9c119e24a02bb41, type: 3}
+  - {fileID: 8300000, guid: 2482d0922a55b914d8c59e330c14818e, type: 3}
+  - {fileID: 8300000, guid: d7ed926b0b9ada8498c0b6a623ae2a02, type: 3}
+  - {fileID: 8300000, guid: ba3aaa8f9bc579f428738ff5ac74cb86, type: 3}
+  - {fileID: 8300000, guid: 9ae6e425846b52b4d81ddf6c30a12846, type: 3}
+  - {fileID: 8300000, guid: 0cd839bd9bafdd54eaaa0b226601645a, type: 3}
+  - {fileID: 8300000, guid: ffabf70aca4c90b48bf242c35f2cc107, type: 3}
+  - {fileID: 8300000, guid: 264f345637dabcc4f8a94ec94170a88b, type: 3}
+  - {fileID: 8300000, guid: 193f3f7f2a552fc429e6f8b64b5ffe43, type: 3}
+  - {fileID: 8300000, guid: bfb0d5e779ff5d946bbef74ad467fe35, type: 3}
+  - {fileID: 8300000, guid: 3d1e0f3f0ab05da4c9a85675c503e785, type: 3}
+  - {fileID: 8300000, guid: 8c3af4cd4a6619d46be6d3ca2e20d410, type: 3}
+  - {fileID: 8300000, guid: 231bbd36118410045801364d1b985c44, type: 3}
+  - {fileID: 8300000, guid: 1a62065649474dd45baf5a6c91c1e9fb, type: 3}
+  - {fileID: 8300000, guid: 87b905338675d964d8c4333bfd7e80cc, type: 3}
+  - {fileID: 8300000, guid: 32f9235213bb184469cb9edd0cfd3abd, type: 3}
+  - {fileID: 8300000, guid: 2f55159e41f42be489722f8be55a9361, type: 3}
+  - {fileID: 8300000, guid: d39fb62c76a802b48a97ce72078655f8, type: 3}
+  - {fileID: 8300000, guid: ab574722a30cdcb4ea9a5654274afab3, type: 3}
+  - {fileID: 8300000, guid: 93f93501cc35c7a47b47d6efbc438256, type: 3}
+  - {fileID: 8300000, guid: 4692ac6e2ae5f144d92dfb68ccdf3c26, type: 3}
+  - {fileID: 8300000, guid: 045c2b41c32fb8044ab98f662f3fbef1, type: 3}
+  - {fileID: 8300000, guid: 829d218a10d0d1045b62f89a37632df2, type: 3}
+  - {fileID: 8300000, guid: 62de2838520a3774aaed7254e98e7ae7, type: 3}
+  - {fileID: 8300000, guid: 5b93e8b7d91ba0a4eada6df3b3a6e241, type: 3}
+  - {fileID: 8300000, guid: 89c8c1c6b5f0ba842b23c3ce5191998d, type: 3}
+  - {fileID: 8300000, guid: a431a02c5448d984c920ff69e8a7d6f4, type: 3}
+  - {fileID: 8300000, guid: f827a1a28c561cc4ea047dba46a4d5bc, type: 3}
+  - {fileID: 8300000, guid: 7cb97290dd9bf894aab91ce4b49282ad, type: 3}
+  - {fileID: 8300000, guid: 00fa08fd035556647b7e89ad32e37cbe, type: 3}
+  - {fileID: 8300000, guid: 932993dbbdb1c4e419fa9e78b2c4ed3a, type: 3}
+  - {fileID: 8300000, guid: 8b60ce1138128394d8d64badca42168c, type: 3}
+  - {fileID: 8300000, guid: 8c059f70c09440849b0e6849c305f300, type: 3}
+  - {fileID: 8300000, guid: 3fdea267a31fb0342b264351136620b1, type: 3}
+  - {fileID: 8300000, guid: 4d812d6f45981f54b82a1d1ac677603b, type: 3}
+  - {fileID: 8300000, guid: 2da122acfaee4244693c53906a063ee5, type: 3}
+  - {fileID: 8300000, guid: a6e1b1020ddc444429e51d1f97a0aa6b, type: 3}
+  - {fileID: 8300000, guid: 35ae625d73cf51c409c9b6d3d024ff89, type: 3}
+  - {fileID: 8300000, guid: c37085ccf2811444ba84a0f168a691a9, type: 3}
+  - {fileID: 8300000, guid: e906c5e1ac7d77f48b6842e20f01da06, type: 3}
+  - {fileID: 8300000, guid: ff50a2b23e5e2ea488987892e790c9eb, type: 3}
+  - {fileID: 8300000, guid: adb950764852a024fa7fba69fe8e6e5d, type: 3}
+  - {fileID: 8300000, guid: d869c120d59010b4e99be6938b72bea7, type: 3}
+  - {fileID: 8300000, guid: 1cdd865815233fd46a2dac0df378a7ce, type: 3}
+  - {fileID: 8300000, guid: 171b726e3dfc8004493ba1943470dc39, type: 3}
+  - {fileID: 8300000, guid: 8d5ea27ed43f834468b6e43d0f84a65f, type: 3}
+  - {fileID: 8300000, guid: d4ae50cf1ddda6a4481cfdd84fb30703, type: 3}
+  - {fileID: 8300000, guid: 691156818b280ee469ad31a0d5da6619, type: 3}
+  - {fileID: 8300000, guid: 1e7378f8225e3c64882b9953165f4389, type: 3}
+  - {fileID: 8300000, guid: 5f3565e4c64d6344a9f9a183a7b54777, type: 3}
+  - {fileID: 8300000, guid: c90755cd5d3874a45b88a96df447c82c, type: 3}
+  - {fileID: 8300000, guid: 1a243363bd9c2e54bb7f45a203368f0a, type: 3}
+  - {fileID: 8300000, guid: 8c96852bce2e6784aae13974f6ccaf30, type: 3}
+  - {fileID: 8300000, guid: 222f75e67f89951408aeb3d25ef127a9, type: 3}
+  - {fileID: 8300000, guid: 7281d31d6100e1749a546bb8f18c31c8, type: 3}
+  - {fileID: 8300000, guid: c1993dd213bd4ab41987482fd62fc9e2, type: 3}
+  - {fileID: 8300000, guid: ea6c65d70f848eb4abb9503c43e04669, type: 3}
+  - {fileID: 8300000, guid: dde037a65755c0947be87382ae93ac1b, type: 3}
+  - {fileID: 8300000, guid: ebce8f226f439f44ebfb56c79fc5b29f, type: 3}
+  - {fileID: 8300000, guid: 578487b68cd70394db1e1e3326a4e860, type: 3}
+  - {fileID: 8300000, guid: 3f020e357b60b844c9ebf1ff9c6bd98e, type: 3}
+  - {fileID: 8300000, guid: d2bcce9260c5bdd49a1a102b8084c3e8, type: 3}
+  - {fileID: 8300000, guid: f81f2ef7a811a134e8ef338c0e5762af, type: 3}
+  - {fileID: 8300000, guid: 0b8b495569635d84cb90e71c94184808, type: 3}
+  - {fileID: 8300000, guid: f6a60deb45b2197498af94d161effd22, type: 3}
+  - {fileID: 8300000, guid: 7dc5095612efaee46b51810a18e09292, type: 3}
+  - {fileID: 8300000, guid: bb8fa875c617fce4b9535dfc0dda7f4d, type: 3}
+  - {fileID: 8300000, guid: bff0d740a1fbc8c4280e80a08ee27bdf, type: 3}
+  - {fileID: 8300000, guid: 6daeac66a83c48d45a4a8c58e04cc177, type: 3}
+  - {fileID: 8300000, guid: bf22cf26384dfac4ab326112400c5642, type: 3}
+  - {fileID: 8300000, guid: 1d55abd631375f342bca1036fd2f1091, type: 3}
+  - {fileID: 8300000, guid: d5ec741ba94ce0f42a55ff3ad5591225, type: 3}
+  - {fileID: 8300000, guid: b1e14d3093a680240b16ad72586ce384, type: 3}
+  - {fileID: 8300000, guid: d9a3445012063ae4bbf354c96b53d0d2, type: 3}
+  - {fileID: 8300000, guid: 341c5dbdb45cea14d962f86816e3b723, type: 3}
+  - {fileID: 8300000, guid: 036f6648a8627a34f97889ce985ba248, type: 3}
+  - {fileID: 8300000, guid: 484482ca664942846bb8dda0c497e709, type: 3}
+  - {fileID: 8300000, guid: 82a7f0ac23da5c3439751edd8652d442, type: 3}
+  - {fileID: 8300000, guid: a07163dfc76f5874386aea2181a35b05, type: 3}
+  - {fileID: 8300000, guid: 25106e1b33c46a6479727ea4646fb7ff, type: 3}
+  - {fileID: 8300000, guid: dbfefc9e0890a1f4fa0224e5c4051af8, type: 3}
+  - {fileID: 8300000, guid: d782fa3cd3ea7914db03f1b70c68a57f, type: 3}
+  - {fileID: 8300000, guid: 6ceac61386bfbe84087b49dabb37d0a8, type: 3}
+  - {fileID: 8300000, guid: 8af6a9c2929ea4547bdac07419000107, type: 3}
+  - {fileID: 8300000, guid: 559146ae342490b4e9b6c487eda48ca7, type: 3}
+  - {fileID: 8300000, guid: 1f19c6e60854f03499b5bc991caacda0, type: 3}
+  - {fileID: 8300000, guid: cefa1cf8c0d541b4bb6e907d26aebfff, type: 3}
+  - {fileID: 8300000, guid: 1b0889a3b608ae344b84e92c10e617e8, type: 3}
+  - {fileID: 8300000, guid: b9190974bf6423247a1897ccb6d0eb22, type: 3}
+  - {fileID: 8300000, guid: 0b3852e0b58f82145a979e70e3ea181b, type: 3}
+  - {fileID: 8300000, guid: ea376aef3b1ea54458348551abda0288, type: 3}
+  - {fileID: 8300000, guid: 7179ba73a7fa5d3478cf3f8b331e543b, type: 3}
+  cpuControlledClips:
+  - {fileID: 8300000, guid: 57e290fe3f7819943a7188a945b04e43, type: 3}
+  - {fileID: 8300000, guid: a2c5cde413385db4998552a767fad906, type: 3}
+  - {fileID: 8300000, guid: 1138cf9d3c434ea4d9aec29add6be739, type: 3}
+  - {fileID: 8300000, guid: c4c28dad0679f944ab4e261adb5ddcb2, type: 3}
+  - {fileID: 8300000, guid: b4a9d3c09f5fff640a4f9cd31d41b064, type: 3}
+  - {fileID: 8300000, guid: 222c1129fd5f9ef40a0002a673621591, type: 3}
+  - {fileID: 8300000, guid: 3a70b43d1290a2e4082bf7c2e50d6f00, type: 3}
+  - {fileID: 8300000, guid: 4855d9c0dbdd95747acddf077f56b053, type: 3}
+  - {fileID: 8300000, guid: dabab1c06caf7c741be6079f7d254307, type: 3}
+  - {fileID: 8300000, guid: 667a1d7a2dd276f448de26abb7e33647, type: 3}
+  - {fileID: 8300000, guid: 90fbd58bca4994f48931304a3adddc4f, type: 3}
+  - {fileID: 8300000, guid: 561a9a7887a2c524f971c4bd1f0a659d, type: 3}
+  - {fileID: 8300000, guid: 7104aa9fddbad4044be5f79f6ab63ef0, type: 3}
+  - {fileID: 8300000, guid: 0d6472a1c3e23694c9e619e4886e54e0, type: 3}
+  - {fileID: 8300000, guid: 7852c9b1ce9c5204e8dc52160e224134, type: 3}
+  - {fileID: 8300000, guid: 633da27de44651a42afbd4af92378dee, type: 3}
+  - {fileID: 8300000, guid: 15e6400b28839b74fae3ca27690d7e2a, type: 3}
+  - {fileID: 8300000, guid: 9f5a9c2906498634db9f901135e7e0d2, type: 3}
+  - {fileID: 8300000, guid: 24a44d682bb48d84a91659e73338d854, type: 3}
+  - {fileID: 8300000, guid: aea6e407d0af1be429fd40eed12c54b5, type: 3}
+  - {fileID: 8300000, guid: 1cd297baaf28d17479a877b85400815e, type: 3}
+  - {fileID: 8300000, guid: 0f92f584dc981fa45b760c46d5b0961c, type: 3}
+  - {fileID: 8300000, guid: be37505546856a549a6f262b68a0a118, type: 3}
+  - {fileID: 8300000, guid: 4897440a5eaf55f48aaa58317b23a69f, type: 3}
+  - {fileID: 8300000, guid: 6d55112573bd22347906a77e2cb3930c, type: 3}
+  - {fileID: 8300000, guid: 9939ba6430fa5ca498a74c82a8330297, type: 3}
+  - {fileID: 8300000, guid: e8013c60ba7fffe4191a4768a7d0c6e9, type: 3}
+  - {fileID: 8300000, guid: 9a37c01c3270b0b45a64c0abd3d3aeb5, type: 3}
+  - {fileID: 8300000, guid: 6762d8db0d13a3949b42bfa1d0eab00c, type: 3}
+  - {fileID: 8300000, guid: 305e0cb8bc1a4394f922720db45c8e0a, type: 3}
+  - {fileID: 8300000, guid: aeb3249d2dd5b4842bf7d1ea3dafe3c1, type: 3}
+  - {fileID: 8300000, guid: 96504108d92b4c849b46fc4f1913e17a, type: 3}
+  - {fileID: 8300000, guid: cec909ddca4ea014fb844d1913346686, type: 3}
+  - {fileID: 8300000, guid: b092844135c5335469c45634f9b8df92, type: 3}
+  - {fileID: 8300000, guid: 12a0a5c73b476a24eaf02ab176ccdfec, type: 3}
+  - {fileID: 8300000, guid: ccf86fc168b3e8d4bb0034c9fa6f1523, type: 3}
+  - {fileID: 8300000, guid: 4d3ba628ffd81564e828a2ad4221e764, type: 3}
+  - {fileID: 8300000, guid: 3acd0222398d8134bbb5bb3ce46d0211, type: 3}
+  - {fileID: 8300000, guid: 483a3b11e8e369347a5e147036d8d0b6, type: 3}
+  - {fileID: 8300000, guid: 0d7e931edc9dd544ebbe99f31f41e8b7, type: 3}
+  - {fileID: 8300000, guid: 856a3a3c50dc35a478e5f93b7727629f, type: 3}
+  - {fileID: 8300000, guid: 7f0977e1189a5404f982db7fa3b6db53, type: 3}
+  - {fileID: 8300000, guid: 34ff9b988e639f542b32cdeca64761e3, type: 3}
+  - {fileID: 8300000, guid: 76ec49cfe34e29c4d8f51e240e4de2f8, type: 3}
+  - {fileID: 8300000, guid: 00d20b80bd5f9a94e99c8e1d12fa0b7f, type: 3}
+  - {fileID: 8300000, guid: feedbfd7418ee1742a9011c7f111917f, type: 3}
+  - {fileID: 8300000, guid: 2aeffd1aead79784599b1b400a2dd61f, type: 3}
   otherClips:
   - {fileID: 8300000, guid: 624600cdaf631f64db0e85083a9ece75, type: 3}
   - {fileID: 8300000, guid: 29d3bd9c580289a48a03f460c4a38ea3, type: 3}
@@ -5987,6 +6146,236 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"Analysis of the air indicates presence of offensive matter."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It would appear Murkywater are in attendance."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Murkywater have a significant presence here."'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is a pleasant sensation."'
+      m_Image: {fileID: 0}
+    - m_Text: '"This is a great opportunity to express satisfaction."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hello."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bonjour."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hallo."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hola."'
+      m_Image: {fileID: 0}
+    - m_Text: '''Hi."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hi...Aus wie ein scheiss Autounfall."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hi. [unknown spanish]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Greetings."'
+      m_Image: {fileID: 0}
+    - m_Text: '"A crowbar has been acquired."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Tenemos una barra de metal!"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please pay attention. You will be happy to know..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Searching."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is imperative we locate the manager." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is imperative we locate the manager." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is imperative we locate the manager. -aeme su cabeza."'
+      m_Image: {fileID: 0}
+    - m_Text: '"There he is."'
+      m_Image: {fileID: 0}
+    - m_Text: '"There she is."'
+      m_Image: {fileID: 0}
+    - m_Text: '"There they are."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Has enough financial restitution been recovered?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Negative, further financial constitution required."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Acoustic feedback suggests opposing forces within building structure."
+        (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Acoustic feedback suggests opposing forces within building structure."
+        (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Acoustic feedback suggests opposing forces within building structure..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let''s go."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cargo is secured." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cargo is secured." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cargo is secured." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cargo secured."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Secured."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Analysis confirms it is stuck."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please keep all subjects in check."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s coming now." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"It''s coming now." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please take a seat."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Take a seat."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is advised that you answer immediately."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We insist that you surrender notions of bravery."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We respectfully request an answer."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please, reply."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please, do it immediately."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Exercise caution when aggravating my temper..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Requesting new directives."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The computer process has successfully completed."'
+      m_Image: {fileID: 0}
+    - m_Text: '"The computer process successfully completed."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Advise opening it up."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cadaver y correr."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''m in a hurry."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''m in a hurry. Contente-toi de boucher les trous."'
+      m_Image: {fileID: 0}
+    - m_Text: "\"I'm in a hurry. Me estoy muriendo, co\xF1o.\""
+      m_Image: {fileID: 0}
+    - m_Text: '"It has arrived. Thank you."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is there."'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is time to convey these articles out." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"It is time to convey these articles out." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Let us continue with the plan."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Loading sequence complete."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Maintain an air of calm control."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Open the door."'
+      m_Image: {fileID: 0}
+    - m_Text: '"...opposing forces within building structure."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Pay attention."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please advise." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please advise." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please direct firepower towards it."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please...maintain...control."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please open the door."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please pay attention." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please pay attention." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please remain vigilant." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please remain vigilant." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Shall we proceed with the plan?"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Take care."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Take care. Sei vorsichtig."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Take care. Tened cuidado."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Target observed."'
+      m_Image: {fileID: 0}
+    - m_Text: '"That requirement is satisfied. Please proceed."'
+      m_Image: {fileID: 0}
+    - m_Text: '"That was a loud noise."'
+      m_Image: {fileID: 0}
+    - m_Text: To Dallas - "Dallas, nucleus of the US oil industry..."
+      m_Image: {fileID: 0}
+    - m_Text: To Wolf - "Wolf, an apex predator..."
+      m_Image: {fileID: 0}
+    - m_Text: To Chains - "When handling firearms always check that the safety is
+        on..."
+      m_Image: {fileID: 0}
+    - m_Text: To Houston - "Identity theft is a means often employed..."
+      m_Image: {fileID: 0}
+    - m_Text: To John Wick - "John, you are needed. You are the angel of death John..."
+      m_Image: {fileID: 0}
+    - m_Text: To Hoxton - "Hoxton shoreditch, borrough of Hackney, London..."
+      m_Image: {fileID: 0}
+    - m_Text: To Clover - "Clover, Trifolium, four leaves for luck..."
+      m_Image: {fileID: 0}
+    - m_Text: To Dragan - "Hello, please do not break the law..."
+      m_Image: {fileID: 0}
+    - m_Text: To Bonnie - "Heads or tails? A tossed coin..."
+      m_Image: {fileID: 0}
+    - m_Text: To Sokol - "Power play. Great shot. Goal..."
+      m_Image: {fileID: 0}
+    - m_Text: To Jiro - "A seeker. A hero shall find a treasure..."
+      m_Image: {fileID: 0}
+    - m_Text: To Bodhi - "McKinley. Taft. Harding..."
+      m_Image: {fileID: 0}
+    - m_Text: To Jimmy - "Who do you want to be today?.."
+      m_Image: {fileID: 0}
+    - m_Text: To Sydney - "Hello young lady. Welcome. Hello..."
+      m_Image: {fileID: 0}
+    - m_Text: To Rust - "This is a very nice bike. Where did you get it?.."
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that ''banana chips'' are deep-fried or dried slices
+        of bananas?.."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that watching television can be bad for your health?.."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that a ''television'' or a ''TV'' is a telecommunication
+        medium..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that much of human nutrition depends on plants..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that a decapitation is the complete separation..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that ''Space Invaders''..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that a ''home'' is a dwelling place..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that a ''couch'' is a piece of furniture..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that an ''arcade game''..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that neon lighting consists of glowing electrified gas
+        tubes..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that according to Abraham Maslow..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that ''zebras'' are several species of African equates..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that a ''weapon'' is any device used with intent..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that one of the most effective ways of improving well-being..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Did you know that the Nintendo Entertainment System..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hello Jacket. How are you? I am good. Thank you for asking."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Hello Jacket. I am good. Thank you...asking."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17537,6 +17926,100 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: '- - -'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''ll wait here. You go on ahead." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''ll wait here. You go on ahead." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I''ll wait here."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Forza, dobbiamo muovere il culo." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Forza, dobbiamo muovere il culo." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Cheers."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bravo."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Prost."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Acknowledged." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Acknowledged." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Yes, I understand." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Yes, I understand." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Yes, I understand. Si, capisco."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Yes, I understand. Si."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Si, entiendo."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Assistance would be appreciated."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please, assist."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Bei dir stehen Knochen raus wo keine Knochen rausstehen sollten."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I don''t think that''s suppossed to go there."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please avoid operating heavy machinery while under the influence..."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please avoid operating heavy machinery while under the influence-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please maintain pressure on bandages for at least thirty minutes."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please maintain pressure on bandages-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"To avoid fatal injury, follow your supervisor''s instructions closely."'
+      m_Image: {fileID: 0}
+    - m_Text: '"To avoid fatal injury-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please rest and avoid exerting yourself."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please rest-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"Help is on the way." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Help is on the way." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"I am happy to help."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I will gladly help."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please be patient."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are coming to the rescue."'
+      m_Image: {fileID: 0}
+    - m_Text: '"We are coming-"'
+      m_Image: {fileID: 0}
+    - m_Text: '"I expected you sooner."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I expected you sooner. Se non vuoi fare una brutta fine, vedi di salvarmi."'
+      m_Image: {fileID: 0}
+    - m_Text: '"I expected you sooner. [unknown spanish]."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you very much." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you very much." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you very much." (3)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thank you." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Thanks in advance."'
+      m_Image: {fileID: 0}
+    - m_Text: '"You have been put on hold."'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please hold." (1)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please hold." (2)'
+      m_Image: {fileID: 0}
+    - m_Text: '"Please wait."'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
