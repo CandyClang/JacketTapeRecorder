@@ -25652,13 +25652,13 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: '"Medic bag available."'
       m_Image: {fileID: 0}
-    - m_Text: '"Additional wrappings can be found in the designated area." (1)'
+    - m_Text: '"Additional wrapping can be found in the designated area." (1)'
       m_Image: {fileID: 0}
-    - m_Text: '"Additional wrappings can be found in the designated area." (2)'
+    - m_Text: '"Additional wrapping can be found in the designated area." (2)'
       m_Image: {fileID: 0}
-    - m_Text: '"Additional wrappings can be found in the designated area." (3)'
+    - m_Text: '"Additional wrapping can be found in the designated area." (3)'
       m_Image: {fileID: 0}
-    - m_Text: '"Additional wrappings can be found in the designated area." (4)'
+    - m_Text: '"Additional wrapping can be found in the designated area." (4)'
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
