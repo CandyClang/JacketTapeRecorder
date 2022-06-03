@@ -31,6 +31,8 @@ public class PlayJacketVoicelines : MonoBehaviour
     [Header("Audio Sources & Sequence")]
     [SerializeField] private AudioSource[] audioSources;
     [SerializeField] private AudioClip[] audioSequence = new AudioClip[3];
+
+    public double duration1, duration2;
     
     #region Masking Up
     public void PlayMaskingUp(int val)
@@ -406,21 +408,16 @@ public class PlayJacketVoicelines : MonoBehaviour
             3. Play random tape scratch clip
         */
 
-        double startTime = AudioSettings.dspTime;
-
         //First tape scratch
         audioSources[0].clip = clip1;
-        audioSources[0].PlayScheduled(startTime);
 
         //Voiceline
-        double duration1 = (double)clip1.samples / clip1.frequency;
+        duration1 = (double)clip1.samples / clip1.frequency;
         audioSources[1].clip = clip2;
-        audioSources[1].PlayScheduled(startTime + duration1);
 
         //Second tape scratch
-        double duration2 = (double)clip2.samples / clip2.frequency;
+        duration2 = (double)clip2.samples / clip2.frequency;
         audioSources[2].clip = clip3;
-        audioSources[2].PlayScheduled(startTime + duration1 + duration2);
     }
     #endregion
 }
