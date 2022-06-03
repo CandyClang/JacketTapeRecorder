@@ -1314,7 +1314,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 150225688}
         m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
-        m_MethodName: PlayHazards
+        m_MethodName: Hazards
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1724,13 +1724,13 @@ MonoBehaviour:
     - {fileID: 8300000, guid: aa1982e88633203458ee53db4589ab50, type: 3}
     - {fileID: 8300000, guid: 357422893a2f18144a5a7c0a2ec26545, type: 3}
   - audioclips:
+    - {fileID: 8300000, guid: fb8330f2d98ff1543aeec892d7813385, type: 3}
     - {fileID: 8300000, guid: 1bf060056182d62448d409a4b979d93a, type: 3}
     - {fileID: 8300000, guid: 5bb9b5a60838b6544b0da056c9bd31e4, type: 3}
     - {fileID: 8300000, guid: 5ce8f8a51408b814c9eeec4aa78783ae, type: 3}
     - {fileID: 8300000, guid: ff2bd93fd5eaf594ea007122e9dd7d8a, type: 3}
     - {fileID: 8300000, guid: 27b8a1e760d88ef4bb04cba9f366c5b6, type: 3}
     - {fileID: 8300000, guid: eb56d73c8a90ae643884ff1fb485f28b, type: 3}
-    - {fileID: 8300000, guid: fb8330f2d98ff1543aeec892d7813385, type: 3}
     - {fileID: 8300000, guid: 2cca24e53a67ad442a66fddbc9095b8c, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 9add85991d11d0d44a3a7c294acb0b71, type: 3}
@@ -1752,6 +1752,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 86e0903aed0458e418b4615716727059, type: 3}
     - {fileID: 8300000, guid: 7e3341abdb9d88f4180fc203e90ffb5a, type: 3}
   - audioclips:
+    - {fileID: 8300000, guid: da87566659560d544bc54c7cb921d5f0, type: 3}
     - {fileID: 8300000, guid: eea15c2d0b8cbf3498032b3c3ad652bb, type: 3}
     - {fileID: 8300000, guid: abe64e58c47711e45bd162981235dda6, type: 3}
     - {fileID: 8300000, guid: a3b96e3755253aa4caf02dc00ba9bcd3, type: 3}
@@ -1759,7 +1760,6 @@ MonoBehaviour:
     - {fileID: 8300000, guid: afa1e10947288204fb59d7573638bf11, type: 3}
     - {fileID: 8300000, guid: c922bcb3f190f3f43844a0a01e73508a, type: 3}
     - {fileID: 8300000, guid: 87ea47de4818e814982865d97ccadb8c, type: 3}
-    - {fileID: 8300000, guid: da87566659560d544bc54c7cb921d5f0, type: 3}
     - {fileID: 8300000, guid: 38000009a3f74e64eae657d55f981437, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 07a4e3584bfd18748afa5d41ec3f44e0, type: 3}
@@ -1788,7 +1788,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 572397bc6dd9ce34f9244f94b6fafdc8, type: 3}
     - {fileID: 8300000, guid: 70e3a978e2ac2ca4197c7683650c9872, type: 3}
     - {fileID: 8300000, guid: c1ce38ee315390840996d93d99b89218, type: 3}
-    - {fileID: 8300000, guid: 572397bc6dd9ce34f9244f94b6fafdc8, type: 3}
+    - {fileID: 8300000, guid: f439d483ecf8b4247ba216522260658e, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 38067e0f5893b9a419599c216ec25c78, type: 3}
   - audioclips:
@@ -1853,10 +1853,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: caad902017e4bcb4e8cfa21f9fe339d4, type: 3}
     - {fileID: 8300000, guid: a14bf4374d1d63049b9c0308259cc24c, type: 3}
   - audioclips:
+    - {fileID: 8300000, guid: d07c8fb55e64c8840a83eab17351e7cc, type: 3}
     - {fileID: 8300000, guid: 9b07c2544be57da41844aa2f5dde7f94, type: 3}
     - {fileID: 8300000, guid: f3c0ee4736e74644d84c70d1de141725, type: 3}
     - {fileID: 8300000, guid: 02da68de01810d846a7fd46631d3eaf4, type: 3}
-    - {fileID: 8300000, guid: d07c8fb55e64c8840a83eab17351e7cc, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 60293a8399a210644a920f2dbf2d9714, type: 3}
     - {fileID: 8300000, guid: 2c722934cb9acc649818df2acc949629, type: 3}
@@ -1901,10 +1901,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 4b2d054a5b3a3ae4189f041e436685f3, type: 3}
   directionsClips:
   - audioclips:
+    - {fileID: 8300000, guid: c02e4bef46aff0942b96a83fe581979b, type: 3}
     - {fileID: 8300000, guid: 9b7e4f6783d9b7a43bd851ce5e67e6a4, type: 3}
     - {fileID: 8300000, guid: 42cdc9e019e73064080914a3b8461d3b, type: 3}
     - {fileID: 8300000, guid: cfa22efae6d5a154cbab0d482a195bc8, type: 3}
-    - {fileID: 8300000, guid: c02e4bef46aff0942b96a83fe581979b, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 86f7c80470f554a4fa462b9ab3e8a57d, type: 3}
     - {fileID: 8300000, guid: 95481d16b539af647bc084cc2c0baed9, type: 3}
@@ -1920,10 +1920,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 18efa34f243bb7c4e90924c6283f43fe, type: 3}
     - {fileID: 8300000, guid: d1038f34e1c002c4a95da95f70ddcfd1, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: 7cf67f4e6c096664a81f2bac362c3c2c, type: 3}
     - {fileID: 8300000, guid: 7a549f62615b23b48991bfcf25c2b0a9, type: 3}
     - {fileID: 8300000, guid: 3488b32e53fe51b45b316bc86db31e74, type: 3}
     - {fileID: 8300000, guid: 0985cc6f86b680649b7bfe3fbbf845cc, type: 3}
+    - {fileID: 8300000, guid: 7cf67f4e6c096664a81f2bac362c3c2c, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 7723bd7d98f359c4d9986d767b37af74, type: 3}
     - {fileID: 8300000, guid: d7c813e7c852712478115dc02b006636, type: 3}
@@ -1942,10 +1942,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 295136b0bd6f3cd49a1b1199616b28a6, type: 3}
     - {fileID: 8300000, guid: 34ec06f5c97b34b48a664be2ffbd7149, type: 3}
   - audioclips:
+    - {fileID: 8300000, guid: 977a47faf56e48d458ba86b0ddaaac9a, type: 3}
     - {fileID: 8300000, guid: 88ab78c248af381409c00d4b683c5c0f, type: 3}
     - {fileID: 8300000, guid: 86dabe7641527f348863b042d106d009, type: 3}
     - {fileID: 8300000, guid: 2ca2f2a38b4977a47b97b603b7a1fcab, type: 3}
-    - {fileID: 8300000, guid: 977a47faf56e48d458ba86b0ddaaac9a, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 0f60332536730a54ca1c9f268abd6670, type: 3}
     - {fileID: 8300000, guid: 435084897dca7f64ca12aeee362780a4, type: 3}
@@ -1957,8 +1957,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: c8e66e2f4f527ef409a38e19f4df94f4, type: 3}
     - {fileID: 8300000, guid: f717e0ffdbb38d84395427c6460a711b, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: 461a97ac026e03543bfae98ec9c06fbe, type: 3}
     - {fileID: 8300000, guid: 89dfad695bfcbcb41bdd38e1f0316051, type: 3}
+    - {fileID: 8300000, guid: 461a97ac026e03543bfae98ec9c06fbe, type: 3}
     - {fileID: 8300000, guid: fa55b4696a3c6dd429c8d4c49189e90c, type: 3}
     - {fileID: 8300000, guid: 2d6351321a6ddef42b3220590e184bf1, type: 3}
     - {fileID: 8300000, guid: 4164e20bba8264d458405c49be16d111, type: 3}
@@ -2090,6 +2090,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: e3dc8c098d19f51459bec490872bcda1, type: 3}
     - {fileID: 8300000, guid: 9caa4d0636e1be249a20c74f78a33cce, type: 3}
     - {fileID: 8300000, guid: b3e4e04473750e7478b9f45ec425a3d0, type: 3}
+    - {fileID: 8300000, guid: f24ca0bfd9789b844a827d3c8418df4d, type: 3}
     - {fileID: 8300000, guid: f824a5c19cca3a74aa7a7e8e876c6e2a, type: 3}
     - {fileID: 8300000, guid: 89f24bd5bda346340abf9c59b96a1c6c, type: 3}
     - {fileID: 8300000, guid: a7ec46b2168837741923079dc6dafa61, type: 3}
@@ -2108,8 +2109,8 @@ MonoBehaviour:
   - audioclips:
     - {fileID: 8300000, guid: 88e3c277600607240bbd5d56ed2f7be9, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: c90755cd5d3874a45b88a96df447c82c, type: 3}
     - {fileID: 8300000, guid: 5f3565e4c64d6344a9f9a183a7b54777, type: 3}
+    - {fileID: 8300000, guid: c90755cd5d3874a45b88a96df447c82c, type: 3}
     - {fileID: 8300000, guid: 1cdd865815233fd46a2dac0df378a7ce, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 5c0d0ab708a952146be6eb3eaaa07cc7, type: 3}
@@ -2173,14 +2174,15 @@ MonoBehaviour:
   - audioclips:
     - {fileID: 8300000, guid: 2da122acfaee4244693c53906a063ee5, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: 35ae625d73cf51c409c9b6d3d024ff89, type: 3}
     - {fileID: 8300000, guid: a6e1b1020ddc444429e51d1f97a0aa6b, type: 3}
+    - {fileID: 8300000, guid: 35ae625d73cf51c409c9b6d3d024ff89, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: c37085ccf2811444ba84a0f168a691a9, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: e906c5e1ac7d77f48b6842e20f01da06, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: ff50a2b23e5e2ea488987892e790c9eb, type: 3}
+    - {fileID: 8300000, guid: 691156818b280ee469ad31a0d5da6619, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: adb950764852a024fa7fba69fe8e6e5d, type: 3}
     - {fileID: 8300000, guid: 1e7378f8225e3c64882b9953165f4389, type: 3}
@@ -2284,11 +2286,11 @@ MonoBehaviour:
     - {fileID: 8300000, guid: dabab1c06caf7c741be6079f7d254307, type: 3}
     - {fileID: 8300000, guid: 667a1d7a2dd276f448de26abb7e33647, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: 7852c9b1ce9c5204e8dc52160e224134, type: 3}
     - {fileID: 8300000, guid: 0d6472a1c3e23694c9e619e4886e54e0, type: 3}
     - {fileID: 8300000, guid: 7104aa9fddbad4044be5f79f6ab63ef0, type: 3}
     - {fileID: 8300000, guid: 90fbd58bca4994f48931304a3adddc4f, type: 3}
     - {fileID: 8300000, guid: 561a9a7887a2c524f971c4bd1f0a659d, type: 3}
+    - {fileID: 8300000, guid: 7852c9b1ce9c5204e8dc52160e224134, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 633da27de44651a42afbd4af92378dee, type: 3}
     - {fileID: 8300000, guid: 15e6400b28839b74fae3ca27690d7e2a, type: 3}
@@ -2320,9 +2322,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: b092844135c5335469c45634f9b8df92, type: 3}
     - {fileID: 8300000, guid: cec909ddca4ea014fb844d1913346686, type: 3}
   - audioclips:
-    - {fileID: 8300000, guid: 4d3ba628ffd81564e828a2ad4221e764, type: 3}
     - {fileID: 8300000, guid: 12a0a5c73b476a24eaf02ab176ccdfec, type: 3}
     - {fileID: 8300000, guid: ccf86fc168b3e8d4bb0034c9fa6f1523, type: 3}
+    - {fileID: 8300000, guid: 4d3ba628ffd81564e828a2ad4221e764, type: 3}
   - audioclips:
     - {fileID: 8300000, guid: 34ff9b988e639f542b32cdeca64761e3, type: 3}
     - {fileID: 8300000, guid: 3acd0222398d8134bbb5bb3ce46d0211, type: 3}
@@ -2401,8 +2403,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  duration1: 0
-  duration2: 0
 --- !u!4 &150225689
 Transform:
   m_ObjectHideFlags: 0
@@ -3925,8 +3925,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayAssaultWaveInbound
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: AssaultWaveInbound
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4737,8 +4737,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayCallingCrewmates
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: CallingCrewmates
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5664,8 +5664,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayMapSpecificQuotes
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: MapSpecificQuotes
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7305,8 +7305,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayPagerResponses
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: PagerResponses
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8267,8 +8267,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlaySpecialEnemies
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: SpecialEnemies
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10302,8 +10302,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayThrowables
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Throwables
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13071,8 +13071,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayOther
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Other
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13759,8 +13759,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayDominating
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Dominating
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14529,8 +14529,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayLowAmmunition
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: LowAmmunition
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16181,8 +16181,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayCPUControlledClips
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: CPUControlledOnly
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16517,8 +16517,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayStealth
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Stealth
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16700,8 +16700,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayHealthAndBleedout
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: HealthAndBleedout
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17983,7 +17983,6 @@ GameObject:
   - component: {fileID: 1395062071}
   - component: {fileID: 1395062070}
   - component: {fileID: 1395062074}
-  - component: {fileID: 1395062073}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -18093,22 +18092,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395062068}
   m_CullTransparentMesh: 1
---- !u!114 &1395062073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395062068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd072b568e33f3b4c8b63266f6846270, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSources:
-  - {fileID: 31670952}
-  - {fileID: 576909346}
-  - {fileID: 272470844}
 --- !u!114 &1395062074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18126,8 +18109,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1395062073}
-          m_TargetAssemblyTypeName: PlayAudioSequence, Assembly-CSharp
+        - m_Target: {fileID: 150225688}
+          m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
           m_MethodName: PlaySequence
           m_Mode: 1
           m_Arguments:
@@ -20357,8 +20340,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayDirections
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Directions
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20599,8 +20582,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayObjectives
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Objectives
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21005,7 +20988,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 150225688}
         m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
-        m_MethodName: PlayMaskingUp
+        m_MethodName: MaskingUp
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21716,8 +21699,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayUsingInspireSkill
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: UsingInspireSkill
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22750,8 +22733,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayCompletingAHeist
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: CompletingAHeist
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23744,8 +23727,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 150225688}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayDeployables
+        m_TargetAssemblyTypeName: PlayJacketVoicelines, Assembly-CSharp
+        m_MethodName: Deployables
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

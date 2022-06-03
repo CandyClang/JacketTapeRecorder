@@ -32,10 +32,10 @@ public class PlayJacketVoicelines : MonoBehaviour
     [SerializeField] private AudioSource[] audioSources;
     [SerializeField] private AudioClip[] audioSequence = new AudioClip[3];
 
-    public double duration1, duration2;
+    private double duration1, duration2;
     
     #region Masking Up
-    public void PlayMaskingUp(int val)
+    public void MaskingUp(int val)
     {
         for (int i = 1; i < maskingUpClips.Length + 1; i++)
         {
@@ -45,7 +45,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Calling Crewmates
-    public void PlayCallingCrewmates(int val)
+    public void CallingCrewmates(int val)
     {
         for (int i = 1; i < callingCrewmatesClips.Length + 1; i++)
         {
@@ -55,7 +55,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Dominating
-    public void PlayDominating(int val)
+    public void Dominating(int val)
     {
         for (int i = 1; i < dominatingClips.Length + 1; i++)
         {
@@ -65,7 +65,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Completing A Heist
-    public void PlayCompletingAHeist(int val)
+    public void CompletingAHeist(int val)
     {
         for (int i = 1; i < completingAHeistClips.Length + 1; i++)
         {
@@ -75,7 +75,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Stealth
-    public void PlayStealth(int val)
+    public void Stealth(int val)
     {
         for (int i = 1; i < stealthClips.Length + 1; i++)
         {
@@ -85,7 +85,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Assault Wave Inbound
-    public void PlayAssaultWaveInbound(int val)
+    public void AssaultWaveInbound(int val)
     {
         for (int i = 1; i < assaultWaveInboundClips.Length + 1; i++)
         {
@@ -95,7 +95,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Special Enemies
-    public void PlaySpecialEnemies(int val)
+    public void SpecialEnemies(int val)
     {
         for (int i = 1; i < specialEnemiesClips.Length + 1; i++)
         {
@@ -105,7 +105,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Using Inspire Skill
-    public void PlayUsingInspireSkill(int val)
+    public void UsingInspireSkill(int val)
     {
         for (int i = 1; i < usingInspireSkillClips.Length + 1; i++)
         {
@@ -115,7 +115,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Pager Responses
-    public void PlayPagerResponses(int val)
+    public void PagerResponses(int val)
     {
         for (int i = 1; i < pagerResponsesClips.Length + 1; i++)
         {
@@ -125,7 +125,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Deployables
-    public void PlayDeployables(int val)
+    public void Deployables(int val)
     {
         for (int i = 1; i < deplopyablesClips.Length + 1; i++)
         {
@@ -135,7 +135,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Throwables
-    public void PlayThrowables(int val)
+    public void Throwables(int val)
     {
         for (int i = 1; i < throwablesClips.Length + 1; i++)
         {
@@ -145,7 +145,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Hazards
-    public void PlayHazards(int val)
+    public void Hazards(int val)
     {
         for (int i = 1; i < hazardsClips.Length + 1; i++)
         {
@@ -155,7 +155,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Directions
-    public void PlayDirections(int val)
+    public void Directions(int val)
     {
         for (int i = 1; i < directionsClips.Length + 1; i++)
         {
@@ -165,7 +165,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Health & Bleedout
-    public void PlayHealthAndBleedout(int val)
+    public void HealthAndBleedout(int val)
     {
         for (int i = 1; i < healthAndBleedoutClips.Length + 1; i++)
         {
@@ -175,7 +175,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Low Ammunition
-    public void PlayLowAmmunition(int val)
+    public void LowAmmunition(int val)
     {
         for (int i = 1; i < lowAmmunitionClips.Length + 1; i++)
         {
@@ -185,7 +185,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Objectives
-    public void PlayObjectives(int val)
+    public void Objectives(int val)
     {
         for (int i = 1; i < objectivesClips.Length + 1; i++)
         {
@@ -195,7 +195,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Map Specific Quotes
-    public void PlayMapSpecificQuotes(int val)
+    public void MapSpecificQuotes(int val)
     {
         for (int i = 1; i < mapSpecificQuotesClips.Length + 1; i++)
         {
@@ -204,8 +204,8 @@ public class PlayJacketVoicelines : MonoBehaviour
     }
     #endregion
 
-    #region CPU Controlled Clips
-    public void PlayCPUControlledClips(int val)
+    #region CPU Controlled Only
+    public void CPUControlledOnly(int val)
     {
         for (int i = 1; i < cpuControlledClips.Length + 1; i++)
         {
@@ -215,7 +215,7 @@ public class PlayJacketVoicelines : MonoBehaviour
     #endregion
 
     #region Other
-    public void PlayOther(int val)
+    public void Other(int val)
     {
         for (int i = 1; i < otherClips.Length + 1; i++)
         {
@@ -418,6 +418,23 @@ public class PlayJacketVoicelines : MonoBehaviour
         //Second tape scratch
         duration2 = (double)clip2.samples / clip2.frequency;
         audioSources[2].clip = clip3;
+    }
+
+    public void PlaySequence()
+    {
+        //double duration1 = jvlScript.duration1;
+        //double duration2 = jvlScript.duration2;
+
+        double startTime = AudioSettings.dspTime;
+
+        //First tape scratch
+        audioSources[0].PlayScheduled(startTime);
+
+        //Voiceline
+        audioSources[1].PlayScheduled(startTime + duration1);
+
+        //Second tape scratch
+        audioSources[2].PlayScheduled(startTime + duration1 + duration2);
     }
     #endregion
 }
